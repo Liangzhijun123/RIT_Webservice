@@ -11,10 +11,9 @@ const Nav = () => {
           </div>
 
           <div className="Linknav">
-            <a className="link">About Us</a>
-            <a className="link">Our Degrees</a>
-            <a className="link">Minors Offered</a>
-            <a className="link">Employment</a>
+            <a className="link" href="#about-us">About Us</a>
+            <a className="link" href="#degree">Our Degrees</a>
+            <a className="link" href="#faculty">Faculty</a>
           </div>
         </div>
       </div>

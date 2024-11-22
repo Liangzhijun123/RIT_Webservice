@@ -3,6 +3,9 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Nav from './Components/Nav';
+import About from './Components/About';
+import Degree from './Components/Degrees';
+import Faculty from './Components/Faculty';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,6 +13,9 @@ function App() {
   return (
     <>
       <Nav/>
+      <About/>
+      <Degree/>
+      <Faculty/>
     </>
   )
 }
