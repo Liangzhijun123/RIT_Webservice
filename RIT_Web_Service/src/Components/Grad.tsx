@@ -32,7 +32,7 @@ const Grad = () => {
 
   if (loading) {
     return <div>Loading...</div>;
-  }
+  } 
 
   if (!data.graduate || data.graduate.length === 0) {
     return <div>No graduate data available.</div>;
