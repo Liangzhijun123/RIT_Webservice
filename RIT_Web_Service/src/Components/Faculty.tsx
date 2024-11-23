@@ -16,13 +16,18 @@ interface FacultyMember {
 }
 
 const Faculty = () => {
-  const [data, setData] = useState<FacultyMember[]>([]);
+  const [data, setData] = useState<{ faculty: FacultyMember[] }>({ faculty: [] });
 
   useEffect(() => {
-    fetch('https://cors-anywhere.herokuapp.com/https://ischool.gccis.rit.edu/api/people/faculty/')
-      .then((response) => response.json())
+    fetch('/faculty.json') 
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("Failed to fetch faculty data");
+        }
+        return response.json();
+      })
       .then((data) => setData(data))
-      .catch((error) => console.log(error));
+      .catch((error) => console.error("Error fetching faculty data:", error));
   }, []);
 
   return (
@@ -36,17 +41,31 @@ const Faculty = () => {
             </div>
           </div>
           <div className="stuff3">
-            <div className="stuff2">
-              <img src="/degree.jpg" alt="degree" className="degimg" />
-              {data.map((item) => (
-                <div className="p6" key={item.username}>
+            {data.faculty.map((item) => (
+              <div className="stuff2" key={item.username}>
+                <img
+                  src={item.imagePath || "/placeholder.jpg"}
+                  alt={`${item.name}'s profile`}
+                  className="degimg"
+                />
+                <div className="p6">
                   <p>Professor: {item.name}</p>
                   <p>Senior lecture</p>
-                  <p>Website link: {item.website}</p>
-                  <p>Description: {item.interestArea}</p>
+                  <p>
+                    Website link:{" "}
+                    {item.website ? (
+                      <a href={item.website}>{item.website}</a>
+                    ) : (
+                      "N/A"
+                    )}
+                  </p>
+                  <p>
+                    Description:{" "}
+                    {item.interestArea || "No description available"}
+                  </p>
                 </div>
-              ))}
-            </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>
