@@ -36,19 +36,36 @@ const Undergrad = () => {
 
   return (
     <div className="undergrad">
-      {data.undergraduate.map((item) => (
-        <div key={item.degreeName} className="name">
-          <h4>{item.title}</h4>
-          <p>{item.description}</p>
-          <p>Concentrations:</p>
-          <ul>
-            {item.concentrations.map((concentration, index) => (
-              <li key={index}>{concentration}</li>
-            ))}
-          </ul>
-        </div>
-      ))}
+    <div className="coop-scrollable">
+      <table className="ui fixed table">
+        <thead>
+          <tr>
+            <th>Degree Name</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Concentrations</th>
+          </tr>
+        </thead>
+        <tbody>
+          {data.undergraduate.map((item) => (
+            <tr key={item.degreeName}>
+              <td>{item.degreeName}</td>
+              <td>{item.title}</td>
+              <td>{item.description}</td>
+              <td>
+                <ul>
+                  {item.concentrations.map((concentration, index) => (
+                    <li key={index}>{concentration}</li>
+                  ))}
+                </ul>
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
     </div>
+  </div>
+  
   );
 };
 

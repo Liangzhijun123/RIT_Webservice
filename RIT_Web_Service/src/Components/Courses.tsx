@@ -9,7 +9,7 @@ interface Course {
 }
 
 const Courses = () => {
-  const [data, setData] = useState<Course[] | null>(null); 
+  const [data, setData] = useState<Course[] | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -64,13 +64,26 @@ const Courses = () => {
 
   return (
     <div className="undergrad">
-      {data.map((course) => (
-        <div key={course.courseID} className="name">
-          <h2>{course.title}</h2>
-          <p><strong>Course ID:</strong> {course.courseID}</p>
-          <p>{course.description}</p>
-        </div>
-      ))}
+      <div className="coop-scrollable">
+        <table className="ui fixed table">
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Course ID</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            {data.map((course) => (
+              <tr key={course.courseID}>
+                <td>{course.title}</td>
+                <td>{course.courseID}</td>
+                <td>{course.description}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 };

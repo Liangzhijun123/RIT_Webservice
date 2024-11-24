@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import 'semantic-ui-css/semantic.min.css';
-import { Message, Icon } from 'semantic-ui-react';
+import "semantic-ui-css/semantic.min.css";
+import { Message, Icon } from "semantic-ui-react";
 
 interface ContentItem {
   title: string;
@@ -14,12 +14,12 @@ interface CoopInfo {
   term: string;
 }
 
-interface ProfessionalInfo{
-    employer: string;
-    degree: string;
-    city: string;
-    startDate:string;
-    title: string;
+interface ProfessionalInfo {
+  employer: string;
+  degree: string;
+  city: string;
+  startDate: string;
+  title: string;
 }
 
 interface DegreeStatistic {
@@ -51,7 +51,7 @@ interface DataStructure {
   employmentTable: {
     title: string;
     professionalEmploymentInformation: ProfessionalInfo[];
-  }
+  };
 }
 
 const Employ = () => {
@@ -89,7 +89,6 @@ const Employ = () => {
       </Message>
     );
   }
-  
 
   if (error) {
     return (
@@ -101,20 +100,14 @@ const Employ = () => {
   }
 
   if (!data) {
-    return (
-      <Message warning>
-        <Message.Header>No Data Available</Message.Header>
-        <p>Please try again later.</p>
-      </Message>
-    );
+    return <p>No data available.</p>;
   }
-
 
   return (
     <div className="undergrad">
       {/* Introduction Section */}
       <section>
-        <h1>{data.introduction.title}</h1>
+        <h2>{data.introduction.title}</h2>
         {data.introduction.content.map((item, index) => (
           <div key={index} className="name">
             <h2>{item.title}</h2>
@@ -125,21 +118,36 @@ const Employ = () => {
 
       {/* Degree Statistics Section */}
       <section>
-        <h1>{data.degreeStatistics.title}</h1>
+        <h2>{data.degreeStatistics.title}</h2>
         <div className="name">
-          <ul>
-            {data.degreeStatistics.statistics.map((stat, index) => (
-              <li key={index}>
-                <strong>{stat.value}</strong>: {stat.description}
-              </li>
-            ))}
-          </ul>
+          
+
+          <div className="coop-scrollable">
+            <table className="ui fixed table">
+              <thead>
+                <tr>
+                  <th>Value</th>
+                  <th>Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                {data.degreeStatistics.statistics.map((stat, index) => (
+                  <tr key={index}>
+                    <td>
+                      <strong>{stat.value}</strong>
+                    </td>
+                    <td>{stat.description}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </div>
       </section>
 
       {/* employers */}
       <section>
-        <h1>{data.employers.title}</h1>
+        <h2>{data.employers.title}</h2>
         <div className="name">
           <ul>
             {data.employers.employerNames.map((name, index) => (
@@ -151,7 +159,7 @@ const Employ = () => {
 
       {/* careers */}
       <section>
-        <h1>{data.careers.title}</h1>
+        <h2>{data.careers.title}</h2>
         <div className="name">
           <ul>
             {data.careers.careerNames.map((item, index) => (
@@ -163,40 +171,66 @@ const Employ = () => {
 
       {/* coop table */}
       <section>
-        <h1>{data.coopTable.title}</h1>
+        <h2>{data.coopTable.title}</h2>
         <div className="name">
-          <p>CO-OP information list</p>
+        
 
           <div className="coop-scrollable">
-            {data.coopTable.coopInformation.map((item, index) => (
-              <ul key={index} className="coop-row">
-                <li>{item.employer}</li>
-                <li>{item.degree}</li>
-                <li>{item.city}</li>
-                <li>{item.term}</li>
-
-              </ul>
-            ))}
+            <table className="ui fixed table">
+              <thead>
+                <tr>
+                  <th>Employer</th>
+                  <th>Degree</th>
+                  <th>City</th>
+                  <th>Term</th>
+                </tr>
+              </thead>
+              <tbody>
+                {data.coopTable.coopInformation.map((item, index) => (
+                  <tr key={index}>
+                    <td>{item.employer}</td>
+                    <td>{item.degree}</td>
+                    <td>{item.city}</td>
+                    <td>{item.term}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </div>
         </div>
       </section>
 
       {/* employment */}
       <section>
-        <h1>{data.employmentTable.title}</h1>
+        <h2>{data.employmentTable.title}</h2>
         <div className="name">
-          <p>CO-OP information list</p>
+       
 
           <div className="coop-scrollable">
-            {data.employmentTable.professionalEmploymentInformation.map((item, index) => (
-              <ul key={index} className="coop-rows">
-                <li>{item.employer}</li>
-                <li>{item.degree}</li>
-                <li>{item.city}</li>
-                <li>{item.startDate}</li>
-                <li>{item.title}</li>
-              </ul>
-            ))}
+            <table className="ui fixed table">
+              <thead>
+                <tr>
+                  <th>Employer</th>
+                  <th>Degree</th>
+                  <th>City</th>
+                  <th>Start Date</th>
+                  <th>Title</th>
+                </tr>
+              </thead>
+              <tbody>
+                {data.employmentTable.professionalEmploymentInformation.map(
+                  (item, index) => (
+                    <tr key={index}>
+                      <td>{item.employer}</td>
+                      <td>{item.degree}</td>
+                      <td>{item.city}</td>
+                      <td>{item.startDate}</td>
+                      <td>{item.title}</td>
+                    </tr>
+                  )
+                )}
+              </tbody>
+            </table>
           </div>
         </div>
       </section>
