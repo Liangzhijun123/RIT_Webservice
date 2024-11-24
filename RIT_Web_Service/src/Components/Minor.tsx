@@ -47,7 +47,8 @@ const Minor = () => {
                             <li key={index}>{course}</li>
                         ))}
                     </ul>
-                    {item.note && <p>{item.note}</p>} 
+                    <p>Notes: {item.note ? <p>{item.note}</p> : <p>None</p>} </p>
+                   
                 </div>
             ))}
         </div>
