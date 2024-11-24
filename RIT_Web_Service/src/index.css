@@ -10,6 +10,17 @@
   background-color: rgba(0, 0, 0, 0.332);
 }
 
+.footer {
+  width: 100%;
+  background-color: #a8a4a5;
+  height: 500px;
+  position: relative; 
+  bottom: 0; 
+  left: 0; 
+
+}
+
+
 .scrollable-description {
   max-height: 50px; 
   overflow-y: auto;  
@@ -180,11 +191,14 @@ html {
 
 .stuff3 {
   display: grid;
-  grid-template-columns: auto auto auto auto auto;
-  justify-content: space-around;
+  grid-template-columns: auto auto auto auto auto ;
+  justify-content: space-between;
   gap: 40px;
   animation: fadeInUp 10s ease-out forwards;
   opacity: 0;
+  max-height: 1400px;        
+  overflow-y: auto;         
+  padding-right: 10px;   
 }
 
 .stuff1 {
@@ -205,6 +219,14 @@ html {
   border-radius: 11px;
   background-color: white;
 }
+
+.stuff2 .image img {
+  height: 200px;  
+  object-fit: cover; 
+  width: 100%; 
+}
+
+
 
 .p5 {
   display: flex;
@@ -419,6 +441,8 @@ h1:hover span {
   color: #fff;
   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
 }
+
+
 
 @media (max-width: 1400px) {
   .stuff {

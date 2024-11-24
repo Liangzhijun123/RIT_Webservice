@@ -4,6 +4,7 @@ import Nav from './Components/Nav';
 import About from './Components/About';
 import Degree from './Components/Degrees';
 import Faculty from './Components/Faculty';
+import Footer from './Components/Footer';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,7 @@ function App() {
       <About/>
       <Degree/>
       <Faculty/>
+      <Footer/>
     </>
   )
 }
