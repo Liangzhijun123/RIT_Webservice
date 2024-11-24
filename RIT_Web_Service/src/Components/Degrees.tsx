@@ -1,10 +1,11 @@
+
 import React, { useState } from 'react';
-import { motion } from 'framer-motion';
 import Grad from './Grad';
-import Undergrad from './Undergrad';
+import Undergrad from './Undergrad'; 
 import Minor from './Minor';
 import Employ from './Employ';
 import Courses from './Courses';
+import { motion } from 'framer-motion';
 
 const Degree = () => {
   const [popOutContent, setPopOutContent] = useState<React.ReactNode | null>(null);
@@ -33,17 +34,15 @@ const Degree = () => {
             </p>
           </div>
           <div className="stuff">
-            <motion.div
+            <div
               className="stuff1"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
               onClick={() =>
                 handlePopOut(
                   <>
                     <div className="butn2">
                       <button>Undergraduate Degree</button>
                     </div>
-                    <Undergrad />
+                    <Undergrad /> 
                   </>
                 )
               }
@@ -53,19 +52,16 @@ const Degree = () => {
                 <p className="comp">Undergraduate Degrees</p>
                 <p>Our degree programs are crafted to meet industry demands.</p>
               </div>
-            </motion.div>
-
-            <motion.div
+            </div>
+            <div
               className="stuff1"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
               onClick={() =>
                 handlePopOut(
                   <>
                     <div className="butn2">
                       <button>Graduate Degree</button>
                     </div>
-                    <Grad />
+                    <Grad /> 
                   </>
                 )
               }
@@ -75,20 +71,17 @@ const Degree = () => {
                 <p className="comp">Graduate Degrees</p>
                 <p>Our degree programs are crafted to meet industry demands.</p>
               </div>
-            </motion.div>
-
-            <motion.div
+            </div>
+            <div
               className="stuff1"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
               onClick={() =>
                 handlePopOut(
-                  <>
+                  <div>
                     <div className="butn2">
                       <button>Minors</button>
                     </div>
-                    <Minor />
-                  </>
+                    <Minor/>
+                  </div>
                 )
               }
             >
@@ -97,18 +90,15 @@ const Degree = () => {
                 <p className="comp">Dynamic Minors for Every Interest</p>
                 <p>Choose from a variety of minors to enhance your major.</p>
               </div>
-            </motion.div>
-
-            <motion.div
+            </div>
+            <div
               className="stuff1"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
               onClick={() =>
                 handlePopOut(
-                  <>
+                  <div>
                     <h2>Employment</h2>
-                    <Employ />
-                  </>
+                    <Employ/>
+                  </div>
                 )
               }
             >
@@ -121,27 +111,26 @@ const Degree = () => {
                   department.
                 </p>
               </div>
-            </motion.div>
-
-            <motion.div
+            </div>
+            <div
               className="stuff1"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
               onClick={() =>
                 handlePopOut(
-                  <>
+                  <div>
                     <h2>Courses offers</h2>
-                    <Courses />
-                  </>
+                    <Courses/>
+                  </div>
                 )
               }
             >
               <img src="/ritlake.jpg" alt="degree" className="degimg" />
               <div className="p5">
                 <p className="comp">Courses offers</p>
-                <p>This is all the courses that RIT offers</p>
+                <p>
+                  This is all the courses that RIT offeres
+                </p>
               </div>
-            </motion.div>
+            </div>
           </div>
         </div>
       </div>

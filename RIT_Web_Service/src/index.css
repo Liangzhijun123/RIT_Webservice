@@ -162,6 +162,20 @@ html {
   justify-content: space-around;
   align-items: center;
   gap: 20px;
+  animation: 3s slide-right;
+}
+
+@keyframes slide-right {
+  from {
+    margin-left: -100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+
+.slide-right{
+  width: 100%;
 }
 
 .stuff3 {
@@ -179,6 +193,9 @@ html {
   border: 1px solid black;
   border-radius: 11px;
   background-color: #e58715;
+  flex: 0 0 auto; 
+  margin-right: 20px; 
+  transition: transform 0.3s ease; 
 }
 
 .stuff2 {
