@@ -371,5 +371,29 @@ section h1 {
   overflow-y: auto; 
 }
 
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 50px;
+  font-weight: bold;
+  font-family: monospace;
+  letter-spacing: 7px;
+  cursor: pointer;
+  text-wrap: nowrap;
+}
+
+h1 span {
+  display: inline-block;
+  transition: 0.5s ease-out;
+}
+
+h1:hover span:nth-child(odd) {
+  margin-right: 5px;
+}
+
+
+h1:hover span {
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+}
 
 

@@ -1,13 +1,31 @@
-import React from "react";
+import React, { useState } from "react";
+import { useTransition, animated } from "@react-spring/web";
+import { styled } from "@stitches/react";
+import * as Dialog from "@radix-ui/react-dialog";
 
 const About = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleDialogChange = (isOpen: boolean) => setIsOpen(isOpen);
+
+  const transition = useTransition(isOpen, {
+    from: { scale: 0, opacity: 0 },
+    enter: { scale: 1, opacity: 1 },
+    leave: { scale: 0, opacity: 0 },
+  });
+
   return (
     <>
       <div id="about-us">
         <div className="about-container">
-          <img src="/RIT-NY-Campus.jpg" alt="RIT" className="school"></img>
+          <img src="/RIT-NY-Campus.jpg" alt="RIT" className="school" />
           <div className="title">
-            <p className="explore">Explore Your Future with Our Core Areas</p>
+            <h1 className="explore">
+              {Array.from("Explore Your Future").map((char, index) => (
+                <span key={index}>{char === " " ? "\u00A0" : char}</span>
+              ))}
+            </h1>
+
             <p className="discover">
               Discover a wide range of opportunities in our core areas,
               including About, Degrees, Minors, Employment, and People. Each
@@ -15,8 +33,46 @@ const About = () => {
               career prospects.
             </p>
             <div className="butn">
-              <button className="butn1">Learn More</button>
-              <button className="butn1">Get Started</button>
+              <Dialog.Root open={isOpen} onOpenChange={handleDialogChange}>
+                <Trigger>
+                  <TriggerShadow />
+                  <TriggerEdge />
+                  <TriggerLabel>Learn More</TriggerLabel>
+                </Trigger>
+                <Trigger onClick={() => setIsOpen(true)}>
+                  <TriggerShadow />
+                  <TriggerEdge />
+                  <TriggerLabel>Get Started</TriggerLabel>
+                </Trigger>
+                <Dialog.Portal forceMount>
+                  {transition((style, isOpen) =>
+                    isOpen ? (
+                      <>
+                        <OverlayBackground style={{ opacity: style.opacity }} />
+                        <Content style={style}>
+                          <DialogHeader>
+                            <CloseButton onClick={() => setIsOpen(false)}>
+                              <svg
+                                width="32"
+                                height="32"
+                                viewBox="0 0 32 32"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M15.9574 14.1689L8.59651 6.75098L6.73232 8.59598L14.1313 16.071L6.71338 23.4129L8.5964 25.2769L15.9574 17.8779L23.3943 25.2769L25.2392 23.4129L17.8213 16.071L25.2202 8.59598L23.3752 6.75098L15.9574 14.1689Z"
+                                  fill="currentColor"
+                                />
+                              </svg>
+                            </CloseButton>
+                          </DialogHeader>
+                          <Title>Welcome to Our Core Areas</Title>
+                        </Content>
+                      </>
+                    ) : null
+                  )}
+                </Dialog.Portal>
+              </Dialog.Root>
             </div>
           </div>
         </div>
@@ -26,3 +82,112 @@ const About = () => {
 };
 
 export default About;
+
+const TriggerPart = styled("span", {
+  position: "absolute",
+  top: 0,
+  left: 0,
+  width: "100%",
+  height: "100%",
+  borderRadius: 8,
+});
+
+const TriggerShadow = styled(TriggerPart, {
+  background: "hsl(0deg 0% 0% / 0.1)",
+  transform: "translateY(2px)",
+  transition: "transform 250ms ease-out",
+});
+
+const TriggerEdge = styled(TriggerPart, {
+  background: `linear-gradient(
+      to left,
+      hsl(0deg 0% 69%) 0%,
+      hsl(0deg 0% 85%) 8%,
+      hsl(0deg 0% 85%) 92%,
+      hsl(0deg 0% 69%) 100%
+    )`,
+});
+
+const TriggerLabel = styled("span", {
+  display: "block",
+  position: "relative",
+  borderRadius: 8,
+  color: "#569AFF",
+  fontSize: "14px",
+  padding: "16px 24px",
+  background: "#fafafa",
+  transform: "translateY(-4px)",
+  width: "100%",
+  userSelect: "none",
+  transition: "transform 250ms ease-out",
+});
+
+const Trigger = styled(Dialog.Trigger, {
+  border: "none",
+  fontWeight: 600,
+  cursor: "pointer",
+  background: "transparent",
+  position: "relative",
+  padding: 0,
+  transition: "filter 250ms ease-out",
+
+  "&:hover": {
+    filter: "brightness(110%)",
+    [`& ${TriggerLabel}`]: {
+      transform: "translateY(-6px)",
+    },
+    [`& ${TriggerShadow}`]: {
+      transform: "translateY(4px)",
+    },
+  },
+
+  "&:active": {
+    [`& ${TriggerLabel}`]: {
+      transform: "translateY(-2px)",
+      transition: "transform 34ms",
+    },
+
+    [`& ${TriggerShadow}`]: {
+      transform: "translateY(1px)",
+      transition: "transform 34ms",
+    },
+  },
+});
+
+const OverlayBackground = styled(animated(Dialog.Overlay), {
+  width: "100vw",
+  height: "100vh",
+  backgroundColor: "rgba(0, 0, 0, 0.5)",
+  pointerEvents: "all",
+  position: "fixed",
+  inset: 0,
+});
+
+const Content = styled(animated(Dialog.Content), {
+  position: "absolute",
+  width: "50vw",
+  height: "60vh",
+  backgroundColor: "#fafafa",
+  borderRadius: 8,
+  padding: "24px 24px 32px",
+});
+
+const DialogHeader = styled("header", {
+  display: "flex",
+  justifyContent: "flex-end",
+  marginBottom: 16,
+});
+
+const CloseButton = styled(Dialog.Close, {
+  backgroundColor: "transparent",
+  border: "none",
+  position: "absolute",
+  top: 16,
+  right: 16,
+  cursor: "pointer",
+  color: "#1B1A22",
+});
+
+const Title = styled(Dialog.Title, {
+  fontSize: 20,
+});
