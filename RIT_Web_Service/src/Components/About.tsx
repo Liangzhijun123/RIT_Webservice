@@ -1,83 +1,47 @@
 import React, { useState } from "react";
-import { useTransition, animated } from "@react-spring/web";
+import { animated } from "@react-spring/web";
 import { styled } from "@stitches/react";
-import * as Dialog from "@radix-ui/react-dialog";
 
 const About = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  const handleDialogChange = (isOpen: boolean) => setIsOpen(isOpen);
-
-  const transition = useTransition(isOpen, {
-    from: { scale: 0, opacity: 0 },
-    enter: { scale: 1, opacity: 1 },
-    leave: { scale: 0, opacity: 0 },
-  });
-
   return (
-    <>
-      <div id="about-us">
-        <div className="about-container">
-          <img src="/RIT-NY-Campus.jpg" alt="RIT" className="school" />
-          <div className="title">
-            <h1 className="explore">
-              {Array.from("Explore Your Future").map((char, index) => (
-                <span key={index}>{char === " " ? "\u00A0" : char}</span>
-              ))}
-            </h1>
+    <div id="about-us">
+      <div className="about-container">
+        <img src="/RIT-NY-Campus.jpg" alt="RIT" className="school" />
+        <div className="title">
+          <h1 className="explore">
+            {Array.from("Explore Your Future").map((char, index) => (
+              <span key={index}>{char === " " ? "\u00A0" : char}</span>
+            ))}
+          </h1>
 
-            <p className="discover">
-              Discover a wide range of opportunities in our core areas,
-              including About, Degrees, Minors, Employment, and People. Each
-              section is designed to guide you through your academic journey and
-              career prospects.
-            </p>
-            <div className="butn">
-              <Dialog.Root open={isOpen} onOpenChange={handleDialogChange}>
-                <Trigger>
-                  <TriggerShadow />
-                  <TriggerEdge />
-                  <TriggerLabel>Learn More</TriggerLabel>
-                </Trigger>
-                <Trigger onClick={() => setIsOpen(true)}>
-                  <TriggerShadow />
-                  <TriggerEdge />
-                  <TriggerLabel>Get Started</TriggerLabel>
-                </Trigger>
-                <Dialog.Portal forceMount>
-                  {transition((style, isOpen) =>
-                    isOpen ? (
-                      <>
-                        <OverlayBackground style={{ opacity: style.opacity }} />
-                        <Content style={style}>
-                          <DialogHeader>
-                            <CloseButton onClick={() => setIsOpen(false)}>
-                              <svg
-                                width="32"
-                                height="32"
-                                viewBox="0 0 32 32"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  d="M15.9574 14.1689L8.59651 6.75098L6.73232 8.59598L14.1313 16.071L6.71338 23.4129L8.5964 25.2769L15.9574 17.8779L23.3943 25.2769L25.2392 23.4129L17.8213 16.071L25.2202 8.59598L23.3752 6.75098L15.9574 14.1689Z"
-                                  fill="currentColor"
-                                />
-                              </svg>
-                            </CloseButton>
-                          </DialogHeader>
-                          <Title>Welcome to Our Core Areas</Title>
-                        </Content>
-                      </>
-                    ) : null
-                  )}
-                </Dialog.Portal>
-              </Dialog.Root>
-            </div>
+          <p className="discover">
+            Discover a wide range of opportunities in our core areas, including
+            About, Degrees, Minors, Employment, and People. Each section is
+            designed to guide you through your academic journey and career
+            prospects.
+          </p>
+          <div className="butn">
+            <Trigger onClick={() => setIsOpen(true)}>
+              <TriggerShadow />
+              <TriggerEdge />
+              <TriggerLabel>Learn More</TriggerLabel>
+            </Trigger>
+            <Trigger onClick={() => setIsOpen(true)}>
+              <TriggerShadow />
+              <TriggerEdge />
+              <TriggerLabel>Get Started</TriggerLabel>
+            </Trigger>
           </div>
         </div>
       </div>
-    </>
+      {isOpen && (
+        <OverlayBackground
+          onClick={() => setIsOpen(false)} 
+        />
+      )}
+    </div>
   );
 };
 
@@ -122,7 +86,7 @@ const TriggerLabel = styled("span", {
   transition: "transform 250ms ease-out",
 });
 
-const Trigger = styled(Dialog.Trigger, {
+const Trigger = styled("button", {
   border: "none",
   fontWeight: 600,
   cursor: "pointer",
@@ -154,40 +118,13 @@ const Trigger = styled(Dialog.Trigger, {
   },
 });
 
-const OverlayBackground = styled(animated(Dialog.Overlay), {
+const OverlayBackground = styled(animated.div, {
+  position: "absolute",
+  top: 0,
+  left: 0,
   width: "100vw",
-  height: "100vh",
+  height: "1100px",
   backgroundColor: "rgba(0, 0, 0, 0.5)",
-  pointerEvents: "all",
-  position: "fixed",
-  inset: 0,
-});
-
-const Content = styled(animated(Dialog.Content), {
-  position: "absolute",
-  width: "50vw",
-  height: "60vh",
-  backgroundColor: "#fafafa",
-  borderRadius: 8,
-  padding: "24px 24px 32px",
-});
-
-const DialogHeader = styled("header", {
-  display: "flex",
-  justifyContent: "flex-end",
-  marginBottom: 16,
-});
-
-const CloseButton = styled(Dialog.Close, {
-  backgroundColor: "transparent",
-  border: "none",
-  position: "absolute",
-  top: 16,
-  right: 16,
-  cursor: "pointer",
-  color: "#1B1A22",
-});
-
-const Title = styled(Dialog.Title, {
-  fontSize: 20,
+  
+  cursor: "pointer", 
 });

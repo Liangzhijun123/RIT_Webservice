@@ -8,29 +8,51 @@ interface Course {
   description: string;
 }
 
+const proxyServer = "https://people.rit.edu/~dsbics/proxy/";
+const apiUrl = "https://ischool.gccis.rit.edu/api/";
+
+async function getData<T>(endpoint: string): Promise<T | undefined> {
+  try {
+    const response = await fetch(proxyServer + apiUrl + endpoint);
+    if (!response.ok) {
+      throw new Error(`Failed to fetch: ${response.statusText}`);
+    }
+    const data = await response.json();
+    return data as T;
+  } catch (error) {
+    console.error("Error fetching data:", error);
+    return undefined;
+  }
+}
+
 const Courses = () => {
   const [data, setData] = useState<Course[] | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    fetch("/course.json")
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error("Failed to fetch API");
+    (async () => {
+      setLoading(true);
+      setError(null); 
+      try {
+    
+        const result = await getData<Course[]>("course/"); 
+        console.log("API Response:", result); 
+        if (result && result.length > 0) {
+          setData(result);
+        } else {
+          setError("No course data found.");
+          setData([]); 
         }
-        return response.json();
-      })
-      .then((data: Course[]) => {
-        setData(data);
-        setLoading(false);
-      })
-      .catch((error) => {
-        console.error("Error fetching data:", error);
-        setError(error.message);
-        setLoading(false);
-      });
-  }, []);
+      } catch (error) {
+        console.error("Error fetching course data:", error);
+        setError("There was an error fetching the course data.");
+        setData([]); 
+      } finally {
+        setLoading(false); 
+      }
+    })();
+  }, []); 
 
   if (loading) {
     return (

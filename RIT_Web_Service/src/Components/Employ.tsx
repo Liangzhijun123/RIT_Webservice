@@ -1,20 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, { useState, useEffect } from "react";
 import "semantic-ui-css/semantic.min.css";
 import { Message, Icon } from "semantic-ui-react";
-
-interface ContentItem {
-  title: string;
-  description: string;
-}
-
-interface CoopInfo {
-  employer: string;
-  degree: string;
-  city: string;
-  term: string;
-}
-
-interface ProfessionalInfo {
+interface EmploymentInfo {
   employer: string;
   degree: string;
   city: string;
@@ -22,61 +9,47 @@ interface ProfessionalInfo {
   title: string;
 }
 
-interface DegreeStatistic {
-  value: string;
-  description: string;
+const proxyServer = "https://people.rit.edu/~dsbics/proxy/";
+const apiUrl = "https://ischool.gccis.rit.edu/api/";
+
+async function getData<T>(endpoint: string): Promise<T | undefined> {
+  try {
+    const response = await fetch(proxyServer + apiUrl + endpoint);
+    if (!response.ok) {
+      throw new Error(`Failed to fetch: ${response.statusText}`);
+    }
+    const data = await response.json();
+    return data as T;
+  } catch (error) {
+    console.error("Error fetching data:", error);
+    return undefined;
+  }
 }
 
-interface DataStructure {
-  introduction: {
-    title: string;
-    content: ContentItem[];
-  };
-  degreeStatistics: {
-    title: string;
-    statistics: DegreeStatistic[];
-  };
-  employers: {
-    title: string;
-    employerNames: string[];
-  };
-  careers: {
-    title: string;
-    careerNames: string[];
-  };
-  coopTable: {
-    title: string;
-    coopInformation: CoopInfo[];
-  };
-  employmentTable: {
-    title: string;
-    professionalEmploymentInformation: ProfessionalInfo[];
-  };
-}
-
-const Employ = () => {
-  const [data, setData] = useState<DataStructure | null>(null);
+const Employment = () => {
+  const [data, setData] = useState<{ employment: EmploymentInfo[] }>({ employment: [] });
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    fetch("/employ.json")
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error("Failed to fetch API");
+    (async () => {
+      setLoading(true); 
+      try {
+        const result = await getData<Record<"employment", EmploymentInfo[]>>("employment/");
+        if (result?.employment) {
+          setData({ employment: result.employment });
+        } else {
+          console.error("No employment data found");
+          setData({ employment: [] }); 
         }
-        return response.json();
-      })
-      .then((data) => {
-        setData(data);
-        setLoading(false);
-      })
-      .catch((error) => {
-        console.error("Error fetching data:", error);
-        setError(error.message);
-        setLoading(false);
-      });
-  }, []);
+      } catch (error) {
+        console.error("Error fetching employment data:", error);
+        setData({ employment: [] }); 
+      } finally {
+        setLoading(false); 
+      }
+    })();
+  }, []); 
 
   if (loading) {
     return (
@@ -99,143 +72,33 @@ const Employ = () => {
     );
   }
 
-  if (!data) {
-    return <p>No data available.</p>;
-  }
-
   return (
-    <div className="undergrad">
-      {/* Introduction Section */}
-      <section>
-        <h2>{data.introduction.title}</h2>
-        {data.introduction.content.map((item, index) => (
-          <div key={index} className="name">
-            <h2>{item.title}</h2>
-            <p>{item.description}</p>
-          </div>
-        ))}
-      </section>
-
-      {/* Degree Statistics Section */}
-      <section>
-        <h2>{data.degreeStatistics.title}</h2>
-        <div className="name">
-          
-
-          <div className="coop-scrollable">
-            <table className="ui fixed table">
-              <thead>
-                <tr>
-                  <th>Value</th>
-                  <th>Description</th>
-                </tr>
-              </thead>
-              <tbody>
-                {data.degreeStatistics.statistics.map((stat, index) => (
-                  <tr key={index}>
-                    <td>
-                      <strong>{stat.value}</strong>
-                    </td>
-                    <td>{stat.description}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </section>
-
-      {/* employers */}
-      <section>
-        <h2>{data.employers.title}</h2>
-        <div className="name">
-          <ul>
-            {data.employers.employerNames.map((name, index) => (
-              <li key={index}>{name}</li>
-            ))}
-          </ul>
-        </div>
-      </section>
-
-      {/* careers */}
-      <section>
-        <h2>{data.careers.title}</h2>
-        <div className="name">
-          <ul>
-            {data.careers.careerNames.map((item, index) => (
-              <li key={index}>{item}</li>
-            ))}
-          </ul>
-        </div>
-      </section>
-
-      {/* coop table */}
-      <section>
-        <h2>{data.coopTable.title}</h2>
-        <div className="name">
-        
-
-          <div className="coop-scrollable">
-            <table className="ui fixed table">
-              <thead>
-                <tr>
-                  <th>Employer</th>
-                  <th>Degree</th>
-                  <th>City</th>
-                  <th>Term</th>
-                </tr>
-              </thead>
-              <tbody>
-                {data.coopTable.coopInformation.map((item, index) => (
-                  <tr key={index}>
-                    <td>{item.employer}</td>
-                    <td>{item.degree}</td>
-                    <td>{item.city}</td>
-                    <td>{item.term}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </section>
-
-      {/* employment */}
-      <section>
-        <h2>{data.employmentTable.title}</h2>
-        <div className="name">
-       
-
-          <div className="coop-scrollable">
-            <table className="ui fixed table">
-              <thead>
-                <tr>
-                  <th>Employer</th>
-                  <th>Degree</th>
-                  <th>City</th>
-                  <th>Start Date</th>
-                  <th>Title</th>
-                </tr>
-              </thead>
-              <tbody>
-                {data.employmentTable.professionalEmploymentInformation.map(
-                  (item, index) => (
-                    <tr key={index}>
-                      <td>{item.employer}</td>
-                      <td>{item.degree}</td>
-                      <td>{item.city}</td>
-                      <td>{item.startDate}</td>
-                      <td>{item.title}</td>
-                    </tr>
-                  )
-                )}
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </section>
+    <div>
+      <h2>Employment Information</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Employer</th>
+            <th>Degree</th>
+            <th>City</th>
+            <th>Start Date</th>
+            <th>Title</th>
+          </tr>
+        </thead>
+        <tbody>
+          {data.employment.map((item, index) => (
+            <tr key={index}>
+              <td>{item.employer}</td>
+              <td>{item.degree}</td>
+              <td>{item.city}</td>
+              <td>{item.startDate}</td>
+              <td>{item.title}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
     </div>
   );
 };
 
-export default Employ;
+export default Employment;
