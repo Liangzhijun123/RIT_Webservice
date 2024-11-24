@@ -6,8 +6,14 @@
   align-items: center;
   position: fixed;
   border-bottom: 1px solid black;
-  z-index: 10;
+  z-index: 30;
   background-color: rgba(0, 0, 0, 0.332);
+}
+
+.scrollable-description {
+  max-height: 50px; 
+  overflow-y: auto;  
+  white-space: normal; 
 }
 
 .Linknav {
@@ -163,6 +169,8 @@ html {
   grid-template-columns: auto auto auto auto auto;
   justify-content: space-around;
   gap: 40px;
+  animation: fadeInUp 10s ease-out forwards;
+  opacity: 0;
 }
 
 .stuff1 {
@@ -495,5 +503,29 @@ h1:hover span {
 
   .degree, .faculty {
     padding: 20px;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+@keyframes fadeInUpItem {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
