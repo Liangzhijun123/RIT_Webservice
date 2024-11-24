@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import 'semantic-ui-css/semantic.min.css';
+import { Message, Icon } from 'semantic-ui-react';
 
 interface ContentItem {
   title: string;
@@ -77,16 +79,36 @@ const Employ = () => {
   }, []);
 
   if (loading) {
-    return <p>Loading...</p>;
+    return (
+      <Message icon>
+        <Icon name="circle notched" loading />
+        <Message.Content>
+          <Message.Header>Just one second</Message.Header>
+          We're fetching that content for you.
+        </Message.Content>
+      </Message>
+    );
   }
+  
 
   if (error) {
-    return <p>Error: {error}</p>;
+    return (
+      <Message negative>
+        <Message.Header>Error</Message.Header>
+        <p>{error}</p>
+      </Message>
+    );
   }
 
   if (!data) {
-    return <p>No data available.</p>;
+    return (
+      <Message warning>
+        <Message.Header>No Data Available</Message.Header>
+        <p>Please try again later.</p>
+      </Message>
+    );
   }
+
 
   return (
     <div className="undergrad">

@@ -107,7 +107,7 @@ body {
 }
 
 .degree {
-  height: 900px;
+  height: 100%;
   padding-top: 112px;
   padding-bottom: 112px;
   padding-left: 64px;
@@ -152,10 +152,11 @@ html {
 }
 
 .stuff {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
   justify-content: space-around;
   align-items: center;
+  gap: 20px;
 }
 
 .stuff3 {
@@ -277,7 +278,7 @@ html {
   justify-content: space-around;
   gap: 40px;
   padding: 20px;
-  width: 100%; /* Ensure the container has sufficient width */
+  width: 100%; 
 }
 
 

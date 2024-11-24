@@ -4,6 +4,7 @@ import Grad from './Grad';
 import Undergrad from './Undergrad'; 
 import Minor from './Minor';
 import Employ from './Employ';
+import Courses from './Courses';
 
 const Degree = () => {
   const [popOutContent, setPopOutContent] = useState<React.ReactNode | null>(null);
@@ -107,6 +108,25 @@ const Degree = () => {
                   Look at our past history of co-op and full-time employment
                   information of the current and past students in the
                   department.
+                </p>
+              </div>
+            </div>
+            <div
+              className="stuff1"
+              onClick={() =>
+                handlePopOut(
+                  <div>
+                    <h2>Courses offers</h2>
+                    <Courses/>
+                  </div>
+                )
+              }
+            >
+              <img src="/ritlake.jpg" alt="degree" className="degimg" />
+              <div className="p5">
+                <p className="comp">Courses offers</p>
+                <p>
+                  This is all the courses that RIT offeres
                 </p>
               </div>
             </div>

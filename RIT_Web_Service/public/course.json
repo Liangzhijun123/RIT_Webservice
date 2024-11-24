@@ -1,0 +1,947 @@
+[
+    {
+        "courseID": "CIT-Concentration-2014",
+        "title": "Concentration Course",
+        "description": "For more information, please see the next section [Concentrations] for a deeper look.  The concentrations you could pursue within the CIT degree are:Networking for a Mobile WorldInternet and Cloud AdministrationWeb Application Administration"
+    },
+    {
+        "courseID": "CIT-Concentration-2015",
+        "title": "Concentration Course",
+        "description": "For more information, please see the next section [Concentrations] for a deeper look.  The concentrations you could pursue within the CIT degree are:DatabaseEnterprise AdministrationNetworking and CommunicationsWeb AdministrationWeb Development"
+    },
+    {
+        "courseID": "CIT-Concentration-2016",
+        "title": "Concentration Courses",
+        "description": "For more information, please see the next section [Concentrations] for a deeper look.  The concentrations you could pursue within the CIT degree are:DatabaseEnterprise AdministrationNetworking and CommunicationsWeb AdministrationWeb Development"
+    },
+    {
+        "courseID": "COMM-142",
+        "title": "Effective Technical Comm",
+        "description": "This course introduces students to current best practices in written and visual technical communication including writing effective email short and long technical reports and presentations developing instructional material and learning the principles and practices of ethical technical communication. Course activities focus on engineering and scientific technical documents."
+    },
+    {
+        "courseID": "CSEC-101",
+        "title": "Fundamentals of Computing Security",
+        "description": "An introduction to the fundamental issues, concepts and tools common to all areas of security.  Topics include who are the attackers, their motivations, and risk tolerance.  Essential tools will be introduced covering the areas of anti-virus, monitoring, virtual machines, account control, and access rights management.  Security models such as access control lists, role-based access control, Bell-La Padula, Biba and others will be studied.  Concept areas such as confidentiality, Integrity, availability and privacy will be studied."
+    },
+    {
+        "courseID": "CSEC-102",
+        "title": "Information Assurance &amp; Security",
+        "description": "Computer-based information processing is a foundation of contemporary society. As such, the protection of digital information, and the protection of systems that process this information has become a strategic priority for both the public and private sectors.  This course provides an overview of information assurance and security concepts, practices, and trends. Topics include computing and networking infrastructures, risk, threats and vulnerabilities, legal and industry requirements for protecting information, access control models, encryption, critical national infrastructure, industrial espionage, enterprise backup, recovery, and business continuity, personal system security, and current trends and futures."
+    },
+    {
+        "courseID": "CSEC-362",
+        "title": "Cryptography &amp; Authentication",
+        "description": "As more users access remote systems, the job of identifying and authenticating those users at distance becomes increasingly difficult. The growing impact of attackers on identification and authentication systems puts additional strain on our ability to ensure that only authorized users obtain access to controlled or critical resources. This course introduces encryption techniques and their application to contemporary authentication methods. (Prerequisite: CSEC-101)"
+    },
+    {
+        "courseID": "CSEC-363",
+        "title": "Cyber Security Policy &amp; Law",
+        "description": "In this course, students will study the need for information security policies, procedures and standards. Students will write security policies and examine cases used as precedent for current laws.  Other topics may include, but are not limited to, trust models, security policy design, incident response, and review of legal cases. (Prerequisite: CSEC-101)"
+    },
+    {
+        "courseID": "ENGL-351",
+        "title": "Language Technology",
+        "description": "We will explore the relationship between language and technology from the invention of writing systems to current natural language and speech technologies. Topics include script decipherment, machine translation, automatic speech recognition and generation, dialog systems, computational natural language understanding and inference, as well as language technologies that support users with language disabilities. We will also trace how science and technology are shaping language, discuss relevant artificial intelligence concepts, and examine the ethical implications of advances in language processing by computers. Students will have the opportunity to experience text analysis with relevant tools. This is an interdisciplinary course and technical background is not required."
+    },
+    {
+        "courseID": "ENGL-581",
+        "title": "Introduction to Natural Language Processing",
+        "description": "This course provides theoretical foundation as well as hands-on (lab-style) practice in computational approaches for processing natural language text. The course will have relevance to various disciplines in the humanities, sciences, computational, and technical fields. We will discuss problems that involve different components of the language system (such as meaning in context and linguistic structures). Students will additionally collaborate in teams on modeling and implementing natural language processing and digital text solutions. We will program in Python and use the Natural Language Toolkit and related tools (such as Weka). Required previous coursework: Language Technology or a programming class (or a similar course with instructor`s consent)."
+    },
+    {
+        "courseID": "ENGL-582",
+        "title": "Seminar in Computational Linguistics",
+        "description": "Study of a focus topic of increased complexity in computational linguistics. The focus topic varies each semester. Students will develop skills in computational linguistics analysis in a laboratory setting, according to professional standards. A research project plays a central role in the course. Students will engage with relevant research literature, research design and methodology, project development, and reporting in various formats. Prerequisite: Introduction to Natural Language Processing or instructor`s consent."
+    },
+    {
+        "courseID": "ENGL-584",
+        "title": "Spoken Language Processing",
+        "description": "This course introduces students to speech and spoken language processing with a focus on real-world applications including automatic speech recognition, speech synthesis, and spoken dialog systems, as well as tasks such as emotion detection and speaker identification. Students will learn the fundamentals of signal processing for speech and explore the theoretical foundations of how human speech can be processed by computers. Students will then collect data and use existing toolkits to build their own speech recognition or speech synthesis system. This course provides theoretical foundation as well as hands-on laboratory practice. Prerequisite: Programming skills, demonstrated via coursework or instructor approval."
+    },
+    {
+        "courseID": "fe",
+        "title": "Free Elective",
+        "description": "You have the opportunity to take any course you wish."
+    },
+    {
+        "courseID": "fyw",
+        "title": "First-Year Writing",
+        "description": ""
+    },
+    {
+        "courseID": "HCC-Concentration-2015",
+        "title": "Concentration Course",
+        "description": "For more information, please see the next section [Concentrations] for a deeper look.  The concentrations you could pursue within the HCC degree are:AccessibilityDesignFront End DevelopmentPsychologyInstructional TechnologyNatural Language Processing"
+    },
+    {
+        "courseID": "HCC-Concentration-2016",
+        "title": "Concentration Course",
+        "description": "For more information, please see the next section [Concentrations] for a deeper look.  The concentrations you could pursue within the HCC degree are:AccessibilityDesignFront End DevelopmentPsychologyInstructional TechnologyNatural Language Processing"
+    },
+    {
+        "courseID": "HCI-appDomain",
+        "title": "Application Domain",
+        "description": "Please see the next section [Application Domains] for a deeper look."
+    },
+    {
+        "courseID": "HCI-capstone",
+        "title": "Capstone Experience",
+        "description": "Capstone Experience will consist of either:HCIN-794 MS HCI Capstone Proposal & HCIN-795 MS HCI Project (3 credits each)orHCIN-796 MS HCI Thesis (6 credits)"
+    },
+    {
+        "courseID": "HCI-elective",
+        "title": "Elective",
+        "description": "ISTE-645 Foundations of Web Technologies IISTE-646 Foundations of Web Technologies IIHCIN-660 Fundamentals of Instructional TechnologyHCIN-661 Interactive CoursewareHCIN-700 Current Topics in HCIHCIN-720 Designing User Experiences for Internet-enabled DevicesHCIN-722 Human Computer Interaction with Mobile DevicesHCIN-730 User-Centered Design MethodsISTE-740 Geographic Information Science & TechnologyISTE-744 Thematic Cartography & Geographic VisualizationHCIN-794 MS HCI Capstone ProposalPSYC-712 Graduate CognitionPSYC-715 Graduate Perception"
+    },
+    {
+        "courseID": "HCIN-600",
+        "title": "Research Methods",
+        "description": "This course provides students with an introduction to the practical application of various research methods that can be used in human computer interaction.  The course provides an overview of the research process and the literature review, and provides initial study in survey research and experimental research methods.  Students will analyze several existing research studies and design and conduct studies."
+    },
+    {
+        "courseID": "HCIN-610",
+        "title": "Foundations of HCI",
+        "description": "Human-computer interaction (HCI) is a field of study concerned with the design, evaluation and implementation of interactive computing systems for human use and with the study of major phenomena surrounding them.  This course surveys the scope of issues and foundations of the HCI field:  cognitive psychology, human factors, interaction styles, user analysis, task analysis, interaction design methods and techniques, and evaluation.  This course will focus on the users and their tasks."
+    },
+    {
+        "courseID": "HCIN-620",
+        "title": "Info. and Interaction Design",
+        "description": "Designing meaningful relationships between people and the products they use is both an art and a science. This course will focus on the unique design practice of: representing and organizing information in such a way as to facilitate perception and understanding (information architecture); and, specifying the appropriate mechanisms for accessing and manipulating task information (interaction design). This course will also explore the various design patterns (design solutions to particular problems) that are appropriate for the HCI professional. (Prerequisite: Co-requisite: HCIN-610)"
+    },
+    {
+        "courseID": "HCIN-630",
+        "title": "Usability Testing",
+        "description": "This project-based course will focus on the formal evaluation of products.  Topics include: usability test goal setting, recruitment of appropriate users, design of test tasks, design of the test environment, test plan development and implementation, analysis and interpretation of the results, and documentation and presentation of results and recommendations. (Prerequisites: HCIN-600, HCIN-610)"
+    },
+    {
+        "courseID": "HCIN-660",
+        "title": "Fundamentals of Instructional Technology",
+        "description": "Instructional Technology encompasses the basic processes for developing and delivering instruction. Instructional Systems Design (ISD) is a well-established methodology for describing knowledge and skills and developing instructional systems to effectively conveying knowledge. This course enables the student to be able to plan, organize, and systematically develop instructional materials. The course uses an ISD model to analyze, design, deliver, and evaluate instruction. (Prerequisite: None)"
+    },
+    {
+        "courseID": "HCIN-661",
+        "title": "Interactive Courseware",
+        "description": "Computer software that teaches is referred to as courseware. This course is a continuation of HCIN-660 that transitions from 'general' Instructional Design into the actual application of these principles in a computer-based environment. Although the basic principles of instructional design hold true in all media environments, using these teaching and learning principles is somewhat different when developing instruction that will be delivered by computer.  This course teaches procedures that have already been successful in the design and development of courseware. (Prerequisite: HCIN-660, ISTE-121 or ISTE-331)"
+    },
+    {
+        "courseID": "HCIN-705",
+        "title": "Topics in HCI for Biomedical Informatics",
+        "description": "This course will provide a theoretical and case-based study of several areas of HCI, all considered within the application domain of biomedical informatics. Course topics include: A Scientific Approach to UI design (Usability Engineering), Domain-Specific User Analysis & User Profiles, Social and Cultural Influences, General and Domain-Specific Design Issues, Information Visualization, Data Integration, Mobile Devices, Security, Privacy and Ethics. (Prerequisite: HCIN-610)"
+    },
+    {
+        "courseID": "HCIN-720",
+        "title": "Prototyping Wearable and Internet of Things Devices",
+        "description": "Wearable computers and Internet of Things devices involve both hardware and software. In order to design user experiences for these systems, professionals must understand how they are built. Students will learn how to rapidly physically prototype and evaluate wearable and IoT devices combining hardware and software. Experience in programming is helpful but not a prerequisite."
+    },
+    {
+        "courseID": "HCIN-722",
+        "title": "HCI with Mobile, Wearable, and Ubiquitous Devices",
+        "description": "Mobile phones are now a major computing platform, and wearable and Internet of Things devices are emerging as major technologies. Each device offers different interaction opportunities and challenges. Students will learn about the research in interaction with these devices and how to design effective interactions for mobile, wearable, and ubiquitous devices. (Prerequisite: HCIN-610)"
+    },
+    {
+        "courseID": "ISEE-731",
+        "title": "Advanced Topics in Human Factors &amp; Ergonomics",
+        "description": "[Need course description]"
+    },
+    {
+        "courseID": "ISEE-732",
+        "title": "Systems Safety Engineering",
+        "description": "[Need course description]"
+    },
+    {
+        "courseID": "IST-capstone",
+        "title": "Culminating Experience",
+        "description": "Capstone Experience will consist of either:ISTE-790 Thesis (6 Credits)orITSE-791 Project (3 Credits)."
+    },
+    {
+        "courseID": "ISTE-100",
+        "title": "Comp. Problem Solving I",
+        "description": "A first course in using the object-oriented approach in the network domain. Students will learn to design software solutions using the object-oriented approach, to implement software solutions using a contemporary programming language, and to test these software solutions. Topics include thinking in object-oriented terms, problem definition, designing solutions using the object-oriented approach, implementing solutions using a contemporary programming language, and testing software solutions. Programming projects will be required.(No Prerequisites)"
+    },
+    {
+        "courseID": "ISTE-101",
+        "title": "Comp. Problem Solving II",
+        "description": "A second course in object-oriented problem solving in the network domain. Students will learn to develop software for the applications layer of the protocol stack. Topics include data structures, network processes, network protocols, and network security. Programming projects will be required (Prerequisite: ISTE-100)."
+    },
+    {
+        "courseID": "ISTE-105",
+        "title": "Web Foundations",
+        "description": "A hands-on introduction to Internet and web foundations for non-computing majors. Includes HTML (Hypertext Markup Language) and CSS (Cascading Stylesheets), web page design fundamentals, basic digital image manipulation, and web site implementation and maintenance. Students will design and build their own web site"
+    },
+    {
+        "courseID": "ISTE-110",
+        "title": "Ethics in Computing (writing int)",
+        "description": "Computing and the Internet are now integral parts of our lives. In this course, we consider and discuss how ethical theories and principles can inform and provide guidance about interactions and uses of computing technologies. Topics include the development interpretation, and application of ethical theory, moral values, personal responsibility, codes of conduct, ethics in the real and virtual worlds, intellectual property, and information security. This is a Writing Intensive (WI) course. Students are provided with guidance and opportunities for improving informal and formal writing skills. Grades received on writing assignments will constitute a significant component of the final course grade.(No Prerequisite)First-Year Foundation:This course serves as the First-Year writing intensive course."
+    },
+    {
+        "courseID": "ISTE-120",
+        "title": "Comp. Problem Solving I",
+        "description": "A first course in using the object-oriented approach to solve problems in the information domain. Students will learn to model hierarchical information structures using XML, to design software solutions using the object-oriented approach, to visually model systems using UML, to implement software solutions using a contemporary programming language, and to test these software solutions. Additional topics include thinking in object-oriented terms, and problem definition. Programming projects will be required (No Prerequisites)"
+    },
+    {
+        "courseID": "ISTE-121",
+        "title": "Comp. Problem Solving II",
+        "description": "A second course in using the object-oriented approach to solving problems in the information domain. Students will learn: basic design principles and guidelines for developing graphical user interfaces, and use of the Event Model to implement graphical interfaces; algorithms for processing data structures; multithreading concepts and use of the Multithreading Model to design and implement advanced processing methods. Additional topics include the relational model of information organization, and the Client-Server model. Individual implementation projects are required. A team implementation exercise is used to provide students an opportunity to apply basic software development and project management practices in the context of a medium-scale project. (Prerequisite: ISTE-120)"
+    },
+    {
+        "courseID": "ISTE-140",
+        "title": "Web &amp; Mobile I",
+        "description": "This course provides students with an introduction to Internet and Web technologies, and to development on Macintosh/UNIX computer platforms. Topics include Internet transport protocols and security methods, XHTML and CSS, multimedia, Web page design and Web site publishing. Emphasis is placed on fundamentals, concepts and standards. Additional topics include the user experience, mobile design issues, and copyright/intellectual property considerations. Exercises and projects are required.(No Prerequisites)"
+    },
+    {
+        "courseID": "ISTE-190",
+        "title": "Found Mod Info Process",
+        "description": "Computer-based information processing is a foundation of contemporary society. This course provides an overview of modern information processing technologies, applications, practices and trends. An emphasis is placed on how these technologies shape information environments and how participants in these environments are able to access, process, and use data and information. Topics include computing system fundamentals, models for organizing data and information, data exploration and knowledge discovery, Internet and the Web, social computing, information security and privacy, and current trends and futures. (No Prerequisites)"
+    },
+    {
+        "courseID": "ISTE-205",
+        "title": "Digital Image Creation",
+        "description": "This course explores the creation and manipulation of digital images intended for use on the Web. Topics include basics of digital photography, acquisition of images, intermediate image manipulation, image compression, and intellectual property issues. Students will be provided with digital cameras for use in the course. (Prerequisite: ISTE-105 or ISTE-140)"
+    },
+    {
+        "courseID": "ISTE-206",
+        "title": "Digital Video Creation",
+        "description": "This course explores the creation of digital video intended for use on the Web. Topics include basics of digital videography, acquisition of audio, editing, streaming, compression, as well as storytelling with video and integration into web sites and applications. Students will be provided with digital cameras for use in the course. (Prerequisite: GCCIS-ISTE-105 or GCCIS-ISTE-140)"
+    },
+    {
+        "courseID": "ISTE-222",
+        "title": "Comp. Problem Solving III",
+        "description": "The third course in the programming sequence expanding the students knowledge base of higher level programming concepts including data structures, algorithm development and analysis, Big-O notation, directed graphs, priority queues, performance, and a greater understanding of how complex software can more easily be designed. Programming assignments are required. (Prerequisite: ISTE-121)"
+    },
+    {
+        "courseID": "ISTE-230",
+        "title": "Intro to Database &amp; Data Modeling",
+        "description": "A presentation of the fundamental concepts and theories used in organizing and structuring data. Coverage includes the data modeling process, basic relational model, normalization theory, relational algebra, and mapping a data model into a database schema. Structured Query Language is used to illustrate the translation of a data model to physical data organization. Modeling and programming assignments will be required.(Prerequisite: ISTE-120 or Equivalent)"
+    },
+    {
+        "courseID": "ISTE-240",
+        "title": "Web &amp; Mobile II",
+        "description": "This course builds on the basics of web page development that are presented in Web I and extends that knowledge to focus on theories, issues, and technologies related to the design and development of web sites. An overview of web design concepts, including usability, accessibility, information architecture, and graphic design in the context of the web will be covered. Introduction to web site technologies, including HTTP, web client and server programming, and dynamic page generation from a database also will be explored. Development exercises are required. (Prerequisites: ISTE-120 & ISTE-140)"
+    },
+    {
+        "courseID": "ISTE-252",
+        "title": "Foundations of Mobile Design",
+        "description": "This course is an introduction to designing, prototyping, and creating applications and Web Apps for mobile devices. These devices include a unique set of hardware and communications capabilities, incorporate novel interfaces, are location aware, and provide persistent connectivity. Topics covered include user interaction patterns, connectivity, interface design, software design patterns, and application architectures. Programming projects are required. (Prerequisite: ISTE-240)"
+    },
+    {
+        "courseID": "ISTE-260",
+        "title": "Designing the User Experience",
+        "description": "The user experience is an important design element in the development of interactive systems. This course presents the foundations of user-centered design principles within the context of human-computer interaction (HCI). Students will explore and practice HCI methods that span the development lifecycle from requirements analysis and creating the product/service vision through system prototyping and usability testing. Leading edge interface technologies are examined. Group-based exercises and design projects are required. (Prerequisite: ISTE-140)"
+    },
+    {
+        "courseID": "ISTE-262",
+        "title": "Foundations of HCC",
+        "description": "This course explores how the fields of psychology, digital design, and computing converge in the design, development, and evaluation of new technologies that people find effective and enjoyable to use.  Students will investigate the field of human-computer interaction (HCI), with a focus on how users` various sensory, motor, and cognitive abilities are essential to their successful use of technology. Students will be exposed to modern research methods and paradigms in field of human-computer interaction, including predictive modeling, heuristic evaluation, interpretive methods, and experimental user testing.  Students will learn key design principles and guidelines and apply them to analyze existing designs and conduct a design process that is centered on human users of technology."
+    },
+    {
+        "courseID": "ISTE-264",
+        "title": "Prototyping &amp; Usability Testing",
+        "description": "This course will explore how modern human centered computing design and evaluation methodologies can be effectively used to create high-quality and usable technologies for a variety of users.  Students will learn how an initial design can be evaluated and improved through the use of prototyping and user evaluations.   Students will investigate a variety of high- and low-fidelity prototyping techniques, plan an iterative design process for an application, conduct an evaluation of a prototype, and analyze the results of user testing to drive a design process.  Programming is required."
+    },
+    {
+        "courseID": "ISTE-266",
+        "title": "Design for Accessibility",
+        "description": "This course will explore the design, evaluation, and use of computing and information technologies to benefit people with disabilities and older adults.  Students will learn how to analyze the accessibility of existing software or websites, and they will learn how to design technology that can be effectively, enjoyably, and efficiently used by people with diverse sensory, motor, and cognitive abilities. Students will learn about cutting-edge ways in which science and technology has provided assistance and accessibility for people with disabilities.  Students will learn how to investigate the needs of users with disabilities, design technologies according to universal design or accessibility principles, interpret key accessibility regulations and guidelines, and include people with disabilities in the design and evaluation of new technologies. Programming is required."
+    },
+    {
+        "courseID": "ISTE-270",
+        "title": "Data Exp &amp; Knowledge Discovery",
+        "description": "Rapidly expanding volumes of data from all areas of society are becoming available in digital form. High value information and knowledge is embedded in many of these data volumes. Unlocking this information can provide many benefits, and may also raise ethical questions in certain circumstances. This course provides students with a gentle, hands-on introduction to how interactive data exploration and data mining software can be used for data-driven knowledge discovery. Students will use statistical, visual, and data/text mining software systems to explore data collections from several different domains such as business, environmental management, healthcare, finance, and transportation. (Prerequisite: STAT-145 or equivalent)"
+    },
+    {
+        "courseID": "ISTE-305",
+        "title": "Rapid Online Presence",
+        "description": "Although large-scale web sites still require considerable development effort, there are today several options for establishing a web presence using tools designed for non-programmers. This course gives students understanding of and experience with installing and customizing web sites using tools such as Blogs, Wikis, Content Management Systems, and Web Site Toolkits. (Prerequisite: ISTE-105)"
+    },
+    {
+        "courseID": "ISTE-330",
+        "title": "Database Connectivity and Access",
+        "description": "In this course, students will build applications that interact with databases. Through programming exercises, students will work with multiple databases and programmatically invoke the advanced database processing operations that are integral to contemporary computing applications. Topics include the database drivers, the data layer, connectivity operations, security and integrity, and controlling database access. (Prerequisite: ISTE-230)"
+    },
+    {
+        "courseID": "ISTE-340",
+        "title": "Client Programming",
+        "description": "This course will explore the analysis, design, development, and implementation of client-side programming in the context of Internet technologies, mobile devices, Web-based client systems and desktop applications. Students will learn to design and build usable and effective interactive systems, clients, and interfaces. Key features addressed will include browser and platform compatibility, object reusability, bandwidth and communications issues, development environments, privacy and security, and related technologies and APIs. Programming is required. (Prerequisite: ISTE-240 & ISTE-121)"
+    },
+    {
+        "courseID": "ISTE-341",
+        "title": "Server Programming",
+        "description": "This course provides in-depth work in server-side programming.  Students will develop dynamic, data centric web pages and systems, and server-side information services that will be available to clients implemented in a variety of software technologies. Topics include XML parsing, generation, and consumption; web configuration and security; design patterns; web service structures, and application security. Programming projects are required. (Prerequisites: ISTE-340, ISTE-230 & SWEN-383)"
+    },
+    {
+        "courseID": "ISTE-358",
+        "title": "Foundations of Wearable &amp; Ubiquitous Computing",
+        "description": "Wearable technologies, like smart watches, and ubiquitous computing technologies, including the internet of things, are entering the mainstream. In this introductory course, students will learn the history of research in these areas and fundamentals of developing for these devices, including interface design, networking, physical form factors; societal issues such as privacy will also be discussed. This class is primarily project-based. (Prerequisite: ISTE-252; ISTE-341)"
+    },
+    {
+        "courseID": "ISTE-362",
+        "title": "Access &amp; Assistive Technology",
+        "description": "Students will gain hands-on experience and knowledge about a wide variety of accessibility and assistive technology available for people with disabilities.  Students will understand the design principles underlying this technology and how the features and capabilities of assistive technology can be tailored to a particular individual`s needs and capabilities.  Students will learn about how new technologies and research in accessibility can be made available for users, and they will learn how to design websites and software that work effectively with a user`s own technology.  Specific technologies discussed in the course may include, e.g.: alternative input devices, communication devices, and screen readers and magnifiers for people with visual impairments.  Programming is required. "
+    },
+    {
+        "courseID": "ISTE-382",
+        "title": "Introduction to Geospatial Technologies",
+        "description": "This course provides a survey of underlying concepts and technologies used to represent and understand the earth, collectively referred to as Geospatial Technologies (GTs). Students will gain hands-on experience with GTs, including Global Positioning Systems (GPSs), Geographic Information Systems (GISs), remote sensing, Virtual Globes, and Web mapping mashups. Students also will develop basic spatial thinking, reasoning, problem solving and literacy skills. (Prerequisite: None)"
+    },
+    {
+        "courseID": "ISTE-384",
+        "title": "Intro. to Geo. Information Systems",
+        "description": "This course introduces students to Geographic Information Systems (GIS). Course lectures, reading assignments, and in-class activities cover a mix of conceptual, practical and technical GIS topics. Topics include GIS data models, basic cartography, geodatabases, spatial data acquisition and creation, and spatial analysis. Through experiential learning, students will learn how GIS is a support mechanism for spatially-oriented thinking, reasoning, literacy, and problem-solving. Such problems include international disaster management, digital humanities, climate change, and sustainable development. This general education course also examines how our social worlds are linked to our physical, technological and material worlds. (Prerequisite: None)"
+    },
+    {
+        "courseID": "ISTE-386",
+        "title": "GIS Programming",
+        "description": "This course is targeted to students with a serious interest in Geographic Information Systems (GIS) who wish to learn underlying spatial algorithms such as map interaction, spatial data querying, network traversal, and automated cartographic design relevant to geographical problem solving. Students taking this course will gain a broad interdisciplinary skill set in how to think spatially and computationally through critical engagement of spatial problem solving.  (Prerequisite: None)"
+    },
+    {
+        "courseID": "ISTE-405",
+        "title": "Web Integration &amp; Application",
+        "description": "The final course in the minor in Web Design and Development (for non-GCCIS majors). Students will develop a deeper understanding of technologies underlying the web and how to combine them. This course builds upon the work from the preceding four courses in the minor and emphasizes integrating multiple technologies and content sources to create sophisticated web sites and web applications for desktop and mobile devices. This course is not available to GCCIS majors. (Prerequisites: GCCIS-ISTE-105, GCCIS-ISTE-205, GCCIS-ISTE-305, GCCIS-IGME-431)"
+    },
+    {
+        "courseID": "ISTE-422",
+        "title": "App Dev Practices",
+        "description": "In this course, students will gain experience with the processes, practices, and tools professional developers use to deliver robust and maintainable applications. Students will apply these practices and tools to build smaller-scale production-quality applications and systems. Topics include development life cycles, version control, test bed development and use, build utilities, error handling, deployment tools, and documentation. (Prerequisite: ISTE-121) "
+    },
+    {
+        "courseID": "ISTE-430",
+        "title": "Information Requirements Modeling",
+        "description": "Students will survey and apply contemporary techniques used in analyzing and modeling information requirements. Requirements will be elicited in a variety of domains and abstracted at conceptual, logical, and physical levels of detail. Process, data, and state modeling will be applied in projects that follow a systems development lifecycle. Objectoriented modeling will be explored and contrasted with data and process oriented modeling. Individual and team modeling assignments will be required. (Prerequisite: ITSE-230)"
+    },
+    {
+        "courseID": "ISTE-432",
+        "title": "Database Application Development",
+        "description": "Database applications have aspects that need to be considered when designing and developing larger-scale systems. In this course students will explore topics such as  concurrent processing, scalability, performance, and security within the context of developing larger-scale data/base information processing systems. Programming projects are required (Prerequisite: ISTE-330)."
+    },
+    {
+        "courseID": "ISTE-434",
+        "title": "Data Warehousing",
+        "description": "This course covers the purpose, scope, capabilities, and processes used in data warehousing technologies for the management and analysis of data. Students will be introduced to the theory of data warehousing, dimensional data modeling, the extract/transform/load process, warehouse implementation, and summary-data management. The basics of data mining and importance of data security will also be discussed. Hands-on exercises include implementing a small-scale data warehouse. (Prerequisite: ISTE-230 & 3rd year standing)"
+    },
+    {
+        "courseID": "ISTE-436",
+        "title": "Data Management and Access",
+        "description": "Students will be introduced to issues in client/server database implementation and administration. Students will configure, test, and establish client-server communication and server-server communication with single and multiple database servers. Topics such as schema implementation, storage allocation and management, user creation and access security, backup and recovery, and performance measurement and enhancement will be presented in lecture and experienced in a laboratory environment. Students will configure and demonstrate successful communication between a database file server and multiple clients. (Prerequisite: ISTE-330)"
+    },
+    {
+        "courseID": "ISTE-438",
+        "title": "Contemporary Databases",
+        "description": "This course will introduce the topic of contemporary databases by covering the design, application and use of non-relational (NoSQL) database technologies.  Topics include an overview of data types, structuring and processing data and knowledge, data transformation, and data storage and warehousing. Students will learn the interaction between relational and non-relational databases in the Cloud or other storage media.  Programming assignments will be required. (Prerequisite: ISTE-230 and ISTE-240 or equivalent)."
+    },
+    {
+        "courseID": "ISTE-442",
+        "title": "Web Application Development",
+        "description": "When building larger-scale web applications, there are a myriad of concerns that range from technology, framework, and architecture selection to runtime performance optimization.  This course focuses on the development of integrated web applications that consume information served from one or many sources. Trends in web application development are identified and assessed. Programming projects are required. (Prerequisite: ISTE-341)"
+    },
+    {
+        "courseID": "ISTE-444",
+        "title": "Web Server Administration &amp; Development",
+        "description": "Web developers often need to go beyond building web pages and client-server programming to plan, install, configure, develop, and maintain the Web servers that host their sites. They need to understand issues of scalability, performance, and security as they apply to deploying a web presence. This course provides a practical hands-on approach to development, configuration, and administration of Web server platforms. Topics include issues of and approaches to scalability, multiple server systems, security, and auditing, as well as the many configuration options, modules, and server alternatives available. (Prerequisite: ISTE-341)"
+    },
+    {
+        "courseID": "ISTE-454",
+        "title": "Mobile Application Dev I",
+        "description": "This course extends the material covered in the Foundations of Mobile Design course and provides students with a team-based experience of creating interesting applications and web apps for small-size form factor mobile devices such as smartphones These devices are exceptionally portable, have unique sets of hardware and communications capabilities, incorporate novel interfaces, are location aware, and provide persistent connectivity. Students are encouraged to make creative use of these unique device characteristics and operating properties to develop innovative applications. Programming projects are required. (Prerequisite: ISTE-252; ISTE-340 or instructor permission)"
+    },
+    {
+        "courseID": "ISTE-456",
+        "title": "Mobile Application Development II",
+        "description": "This course extends the Mobile Application Development I experience to medium-size form factor mobile devices such as slates and tablets. Compared to smartphones, these devices have much larger screen areas, and have the potentials for more processing power, higher capacity memories, additional sensors, and higher capacity batteries. Students are encouraged to make creative use of these increased display and computing resources to develop innovative applications. Programming projects are required. (Prerequisite: ISTE-252; ISTE-340 or instructor permission)"
+    },
+    {
+        "courseID": "ISTE-458",
+        "title": "Advanced Topics in Wearable &amp; Ubiquitous Computing",
+        "description": "This course is a sequel to ISTE-358, Foundations of Wearable & Ubiquitous Computing. In this advanced course, students will further their understanding of these technologies and what they can do. A major emphasis will be on context and activity recognition; for example, automatically understanding what a person is doing or whom they are with. This class is primarily project-based. (Prerequisite: ISTE-358)"
+    },
+    {
+        "courseID": "ISTE-462",
+        "title": "Research In Accessibility",
+        "description": "The goal of this course is to provide students with deeper knowledge in the concentration area of accessibility, building on the foundation in the prerequisite Design for Accessibility course.  In this course, students will focus on 'next generation' accessibility and assistive technology that is currently the focus of research.  Students will learn to search and access the primary research literature in the field of computer accessibility and assistive technology for specific topics of interest.  Students will learn to summarize, discuss, present, and critique current research papers that describe recent research advances. Students will learn how to structure a scientific paper in the field of accessibility, and they will conduct a literature survey to synthesize some research in a particular domain.  The literature research skills provided by this course are intended to support those students who continue to do a senior project or capstone.  The specific selection of papers will likely change each year to reflect advances in the field and the particular domain expertise of the instructor."
+    },
+    {
+        "courseID": "ISTE-464",
+        "title": "Accessibility Through the Lifespan ",
+        "description": "Students will explore how accessibility and assistive technologies intersect with aging throughout the lifespan, with a particular focus on the early and later stages of human development, including: educational contexts (for children or young adults) and effective design strategies for promoting accessibility for older adults with diverse capabilities.  Students will learn key legal regulations that govern special education and accessibility in educational contexts, including the provision of assistive technologies and the accessibility of instructional technologies.  Students will also explore typical changes in ability and impairments that relate to the human aging process, and they will investigate how to design usable and engaging technology for the growing population of older adults.  Students will come to understand the concepts and needs of younger and older users firsthand through, e.g., guest speakers or personal interactions. "
+    },
+    {
+        "courseID": "ISTE-470",
+        "title": "Data Mining and Exploration",
+        "description": "Rapidly expanding volumes of data from all areas of society are becoming available in digital form. High value information and knowledge is embedded in many of these data volumes. Unlocking this information can provide many benefits, and may also raise ethical questions in certain circumstances. This course provides students with a hands-on introduction to how interactive data exploration and data mining software can be used for data-driven knowledge discovery, including domains such as business, environmental management, healthcare, finance, and transportation. Data mining techniques and their application to large data sets will be discussed in detail, including classification, clustering, association rule mining, and anomaly detection. In addition, students will learn the importance of applying data visualization practices to facilitate exploratory data analysis. (Prerequisites: STAT-145 & ISTE-121 or equivalent)"
+    },
+    {
+        "courseID": "ISTE-482",
+        "title": "Geospatial Data Analysis",
+        "description": "This course is an introduction to the theory and techniques used for spatial analysis of complex, geographically referenced data. Topics include spatial data analysis and statistical techniques for a variety of problem types that span a broad spectrum of disciplines.  In-class and out-of-class assignments will develop students' spatial data analysis skills. (Prerequisites: ISTE-384, STAT-146)"
+    },
+    {
+        "courseID": "ISTE-483",
+        "title": "Info. Science &amp; Tech. Research",
+        "description": "This course is for students enrolled in the BS IT degree program and minors to demonstrate competence in concepts, techniques and applications via a semester-length research project developed in conjunction with a faculty member and based on the student's degree concentration or minor. With instructor guidance, students will learn how to formulate a research question, choose relevant methods to answer the question, execute the project and present results in a public forum. (Prerequisite: Fourth Year Standing)"
+    },
+    {
+        "courseID": "ISTE-484",
+        "title": "Thematic Cartography &amp; Geovisualization",
+        "description": "This course examines theory, concepts and techniques associated with thematic map comprehension, evaluation, construction, usage, and assessment. Specific topics include thematic cartography, critical cartography, geographic information visualization,  developing animated and interactive maps, using maps as a means to support scientific inquiry and group work, usability of dynamic maps, and current geovisualization research areas. Development of a visualization prototype and an associated research project in an area related to thematic cartography and geographic visualization are required. No prerequisites. (Prerequisite: Third Year Standing)"
+    },
+    {
+        "courseID": "ISTE-500",
+        "title": "Senior Development Project I",
+        "description": "The first course in a two-course, senior level, system development capstone project. Students form project teams and work with sponsors to define system requirements. Teams then create architectures and designs, and depending on the project, also may begin software development. Requirements elicitation and development practices introduced in prior coursework are reviewed, and additional methods and processes are introduced. Student teams are given considerable latitude in how they organize and conduct project work. (Prerequisite: completion of co-op requirement)"
+    },
+    {
+        "courseID": "ISTE-501",
+        "title": "Senior Development Project II",
+        "description": "The second course in a two-course, senior level, system development capstone project. Student teams complete development of their system project and package the software and documentation for deployment. Usability testing practices introduced in prior coursework are reviewed, and additional methods and processes are introduced. Teams present their developed system and discuss lessons learned at the completion of the course. (Prerequisite: ISTE-501)"
+    },
+    {
+        "courseID": "ISTE-560",
+        "title": "Fundamentals of Instructional Technology",
+        "description": "Instructional Technology encompasses the basic processes for developing and delivering instruction. Instructional Systems Design (ISD) is a well-established methodology for describing knowledge and skills and developing instructional systems to effectively conveying knowledge. This course enables the student to be able to plan, organize, and systematically develop instructional materials. The course uses an ISD model to analyze, design, deliver, and evaluate instruction."
+    },
+    {
+        "courseID": "ISTE-561",
+        "title": "Interactive Courseware",
+        "description": "Computer software that teaches is referred to as courseware. This course is a continuation of Fundamentals of Instruction Technology (ISTE-392), and serves as a transition from general instructional design principles to the actual application of these principles in a computer-based environment. Although the basic principles of instructional design hold true in all media environments, using these teaching and learning principles is somewhat different when developing instruction that will be delivered by computer.  This course teaches procedures that already have been successful in the design and development of courseware. (Prerequisites: ISTE-560, ISTE-121 or equivalent programming background)"
+    },
+    {
+        "courseID": "ISTE-600",
+        "title": "Analytical Thinking",
+        "description": "There is mounting evidence of a need to improve the ability of individuals and groups to think thoughtfully and analytically in order to develop appropriate and useful solutions to complex problems. Sources of complexity include human cognitive limitations, uncertainty, system dynamics, and reasoning errors. This course will provide students with frameworks, techniques, methods, and tools to improve analytical and critical thinking and presentation skills. Students will work individually and in groups on assignments and case study analyses."
+    },
+    {
+        "courseID": "ISTE-602",
+        "title": "Enterprise Computing",
+        "description": "Desc"
+    },
+    {
+        "courseID": "ISTE-605",
+        "title": "Scholarship in IST",
+        "description": "IT graduate students are expected to make a significant scholarly contribution as a requirement for the MS degree. The Scholarship in Information Sciences and Technologies course provides students with the fundamental skills needed to conduct a program of investigation related to participating in the degree capstone course, or in developing a capstone or thesis project. The course focuses on skills such as identifying interesting and important topics and problems, developing and articulating research questions and proposals, critical thinking, and effective oral and written communication and presentation of scholarship."
+    },
+    {
+        "courseID": "ISTE-608",
+        "title": "Database Design and Implementation",
+        "description": "An introduction to the theory and practice of designing and implementing database systems.Current software environments are used to explore effective database design andimplementation concepts and strategies. Topics include conceptual data modeling,methodologies, logical/physical database design, normalization, relational algebra, schemacreation and data manipulation, and transaction design. Database design and implementationprojects are required. (One year of programming in an object-oriented language)."
+    },
+    {
+        "courseID": "ISTE-610",
+        "title": "Knowledge Representation Technologies",
+        "description": "This is the first course in a 2-course sequence that provides students with exposure to foundational information sciences and technologies. Topics include an overview of data types, structuring and processing data and knowledge, data transformation, and data storage and warehousing. Students will learn computational methods to manage large datasets in the context of specific problem scenarios. (Prerequisite: One year programming in an object-oriented language; ISTE-608 or equivalent; 1 web course)"
+    },
+    {
+        "courseID": "ISTE-612",
+        "title": "Knowledge Processing Technologies",
+        "description": "This is the second course in a 2-course sequence that provides students with exposure to foundational information sciences and technologies. Topics include internet middleware technologies, data and text analytics, and information visualization. (Prerequisite: One year of programming in an object-oriented language; ISTE-608 or equivalent; 1 web course, 1 statistics course)"
+    },
+    {
+        "courseID": "ISTE-645",
+        "title": "Foundations of Web Technologies I",
+        "description": "This class provides an introduction to Internet and web technologies. Topics include an introduction to the Internet and basic Internet technologies (including, but not limited to: SSH, SFTP, UNIX, XHTML, CSS, Client-Side programming, and web site publishing). (Prerequisite: ISTE-121 or equivalent)"
+    },
+    {
+        "courseID": "ISTE-646",
+        "title": "Foundations of Web Technologies II",
+        "description": "This course builds on the basic aspects of web page development that are presented in the first course and extends that knowledge to focus on issues and technologies related to the design and development of web sites. Topics include advanced Internet technologies (including, but not limited to: AJAX, server-side programming, database use and access, client libraries, server frameworks, and creating and consuming information services). (Prerequisite: ISTE-645)"
+    },
+    {
+        "courseID": "ISTE-721",
+        "title": "Information Assurance Fundamentals",
+        "description": "This course provides an introduction to the topic of information assurance as it pertains to an awareness of the risks inherent in protecting digital content in today`s networked computing environments. Topics in secure data and information access will be explored from the perspectives of software development, software implementation, data storage, and system administration and network communications. Current software exploitation issues and techniques for information assurance will be investigated. (Prerequisite: Graduate standing in GCCIS)"
+    },
+    {
+        "courseID": "ISTE-722",
+        "title": "Database Connectivity &amp; Access",
+        "description": "In this course, students will build applications that interact with databases. Through programming exercises, students will work with multiple databases and programmatically invoke the advanced database processing operations that are integral to contemporary computing applications. Students will examine and evaluate alternative approaches for each of these operations. Topics include the database drivers, the data layer, connectivity operations, security and integrity, and controlling database access. (Prerequisite: ISTE-720 or equivalent)"
+    },
+    {
+        "courseID": "ISTE-724",
+        "title": "Data Warehousing",
+        "description": "This course covers the purpose, scope, capabilities, and processes used in data warehousing technologies for the management and analysis of data. Students will be introduced to the theory of data warehousing, dimensional data modeling, the extract/transform/load process, warehouse implementation, dimensional data analysis, and summary data management. The basics of data mining and importance of data security will also be discussed. Hands-on exercises include implementing a data warehouse. (Prerequisite: ISTE-720 or equivalent)"
+    },
+    {
+        "courseID": "ISTE-726",
+        "title": "Database Management &amp; Access",
+        "description": "Students will be introduced to issues in client/server database implementation and administration. Students will configure, test, and establish client-server communication and server-server communication with single and multiple database servers. Topics such as schema implementation, storage allocation and management, user creation and access security, backup and recovery, and performance measurement and enhancement will be presented in lecture and experienced in a laboratory environment. Students will configure and demonstrate successful communication between a database file server and multiple clients. (Prerequisite: ISTE-720 or equivalent)"
+    },
+    {
+        "courseID": "ISTE-728",
+        "title": "Database Performance &amp; Tuning",
+        "description": "Students will explore the theory and application of performance monitoring and tuning techniques as they relate to database systems. Standard topics in DBMS performance will be discussed including: physical and logical design issues, the hardware and software environment, SQL statement execution, and front-end application issues. Techniques in performance monitoring and tuning will be investigated. (Prerequisite: ISTE-726)"
+    },
+    {
+        "courseID": "ISTE-740",
+        "title": "Geographic Information Science &amp; Technology ",
+        "description": "This course provides a survey of the theory, concepts, and technologies related to representation and understanding of the earth - a scientific domain known as Geographic Information Science and Technology (GIS & T). Students will gain hands-on experience with technologies such as Global Positioning Systems (GPSs), Geographic Information Systems (GISs), remote sensing, Virtual Globes (Google Earth), and web mapping mashups. Furthermore, students will learn relevant GIS & T theory, concepts, and research trends such as spatial reasoning, spatiotemporal data representation, and spatial analysis. (Prerequisite: None)"
+    },
+    {
+        "courseID": "ISTE-744",
+        "title": "Thematic Cartography &amp; Geographic Visualization",
+        "description": "This course examines concepts and techniques associated with dynamic map construction, usage, and assessment. Specific topics include thematic cartography, geographic information visualization, sources of dynamic geographic information,  developing animated and interactive maps, mapping mashup development, using maps as a means to support group work, usability of dynamic maps, and current geovisualization research areas. Development of a visualization prototype and an associated scholarly paper in an area related to thematic cartography and geographic visualization are required. (Prerequisite: One course in a high level programming language)."
+    },
+    {
+        "courseID": "ISTE-754",
+        "title": "Client Design &amp; Development",
+        "description": "This course will explore the analysis, design, development, and implementation of client-side programming in the context of Internet technologies, mobile devices, and Web-based client systems. Students will learn to design and build usable and effective interactive systems, clients, and interfaces. Key features addressed will include browser and platform compatibility, object reusability, bandwidth and communications issues, development environments, privacy and security, and related technologies and APIs. Programming is required."
+    },
+    {
+        "courseID": "ISTE-756",
+        "title": "Server Design &amp; Development",
+        "description": "This course provides students with advanced work in the design & implementation of highly scalable Internet servers, and application programming interfaces (APIs). Topics include the effects of client requirements upon design, creating & blending heterogeneous data for analysis & visualization, and approaches to building highly-scalable services.  Students will develop dynamic, data-centric web systems, as well as building information services systems that are independent of the technologies that use them.  Students will implement their own servers and services using programming languages. Exercises, programming, and projects are required."
+    },
+    {
+        "courseID": "ISTE-758",
+        "title": "Semantic Web Technologies",
+        "description": "This course provides students with an in-depth introduction to Semantic Web technologies, utilizing ontologies and relationship metadata. Topics include the creation of data linkage through metadata, practical approaches to the design and implementation of ontologies, server- and client-side parsing and transformation of data and ontologies, and machine interpretation of relationships. Emphasis is placed on fundamentals, concepts and standards. Exercises, programming, and projects are required. (Prerequisites: ISTE610, ISTE-612)"
+    },
+    {
+        "courseID": "ISTE-759",
+        "title": "Web Client Server Programming",
+        "description": "When building sophisticated web applications, Client and Server technologies are used together to create the best possible web-based applications.  This course will explore the creation of such integrated applications, exploring topics such as dynamic creation of web technology based applications in a client-server environment. Programming projects are required."
+    },
+    {
+        "courseID": "ISTE-764",
+        "title": "Project Management",
+        "description": "Information technology projects require the application of sound project management principles in order to be developed on time, on budget, and on specification. This course takes students through the nine knowledge areas of modern project management and the utilization of project management principles in both traditional and agile environments."
+    },
+    {
+        "courseID": "ISTE-772",
+        "title": "Knowledge Discovery for Biomedical Informatics",
+        "description": "This course will provide an in-depth exposure to advanced topics in biomedical informatics and knowledge discovery.  Large datasets will be used to illustrate and explore methods in the transformation of data to information and integration of information with domain knowledge. Topics will include high-throughput technologies in genomics, descriptive and inferential statistics, machine learning, visualization, human-computer interaction. (Prerequisites: ISTE-121, PSYC-640)"
+    },
+    {
+        "courseID": "ISTE-780",
+        "title": "Data Driven Knowledge Discovery",
+        "description": "Rapidly expanding collections of data from all areas of society are becoming available in digital form. Computer-based methods are available to facilitate discovering new information and knowledge that is embedded in these collections of data. This course provides students with an introduction to the use of these data analytic methods within the context of the data-driven knowledge discovery process. Topics include motivations for data-driven discovery, sources of discoverable knowledge (e.g., data, text, the Web, maps), data selection and retrieval, data transformation, computer-based methods for data-driven discovery, and interpretation of results. Emphasis is placed on the application of knowledge discovery methods to specific domains. (Prerequisites: ISTE-600, PSYC-640)."
+    },
+    {
+        "courseID": "ISTE-782",
+        "title": "Visual Analytics",
+        "description": "This course introduces students to Visual Analytics, or the science of analytical reasoning facilitated by interactive visual interfaces. Course lectures, reading assignments, and practical lab experiences will cover a mix of theoretical and technical Visual Analytics topics. Topics include analytical reasoning, human cognition and perception of visual information, visual representation and interaction technologies, data representation and transformation, production, presentation, and dissemination of analytic process results, and Visual Analytic case studies and applications. Furthermore, students will learn relevant Visual Analytics research trends such as Space, Time, and Multivariate Analytics and Extreme Scale Visual Analytics. (Prerequisite: PSYC-640)"
+    },
+    {
+        "courseID": "ISTE-99",
+        "title": "Second Year Seminar <br/><span style=\"font-size:0.8em;\">[0 credit course]</span>",
+        "description": "This course helps students prepare for co-operative employment ('co-op') by developing job search approaches and material. Students will explore current and emerging aspects of IST fields to help focus their skill development strategies. Students are introduced to the Office of Career Services and Co-op Education, and learn about their professional and ethical responsibilities for their co-op and subsequent professional experiences. Students will work collaboratively to build resumes, cover letters, and prepare for interviewing. This is a zero credit course that all students must take before going out on co-op."
+    },
+    {
+        "courseID": "ISTE-Concentration",
+        "title": "Domain Electives",
+        "description": "Please see the next section [Domain Electives] for a deeper look. For the Thesis, a 12 credits of domain electives must be completed. For the Project, addition 3 credits of domain elective coursework (total of 15) must be completed."
+    },
+    {
+        "courseID": "lae",
+        "title": "Liberal Arts &amp; Sciences Elective",
+        "description": "Students are allowed to take a general education course of their choosing. General education courses are generally ones that are from math, science, or liberal arts."
+    },
+    {
+        "courseID": "lai",
+        "title": "Liberal Arts &amp; Sciences Immersion",
+        "description": "An Immersion is a set of three (9-12 credits) related general education courses in a focus area linked by a theme (e.g. sustainability, globalization) or discipline (e.g. computational science, Japanese, mathematics) distinct from the student`s home program. It provides opportunities for integrative learning that promote a student`s judgment and understanding within a specific area and will not be directed towards specific occupational or professional objectives."
+    },
+    {
+        "courseID": "lap",
+        "title": "Liberal Arts and Sciences",
+        "description": "Perspectives: Courses which meet the general education student learning outcomes identified under the following Perspectives categories:EthicalArtisticGlobalSocialNatural Science InquiryScientific PrinciplesMathematical"
+    },
+    {
+        "courseID": "lap56",
+        "title": "Liberal Arts and Sciences",
+        "description": "Perspectives: For the Scientific Perspectives:Natural Science InquiryScientific PrinciplesThese courses are acceptable:CHST-MEDG-101 and 103 Human Biology I and Human Biology Lab I &CHST-MEDG-102 and 104 Human Biology II and Human Biology Lab IICOS-BIOL-101 and 103 General Biology I and General Biology Lab I &COS-BIOL-102 and 104 General Biology II and General Biology Lab IICOS-BIOL-121 Introductory Biology I &COS-BIOL-122 Introductory Biology IICOS-CHMG-141 and 145 General and Analytical Chemistry I and Lab I &COS-CHMG-142 and 146 General and Analytical Chemistry II and Lab IICOS-PHYS-111 College Physics I &COS-PHYS-112 College Physics II"
+    },
+    {
+        "courseID": "LASE",
+        "title": "Liberal Arts and Sciences Elective",
+        "description": "Students are allowed to take a general education course of their choosing. General education courses are generally ones that are from math, science, or liberal arts."
+    },
+    {
+        "courseID": "MATH-131",
+        "title": "Discrete Mathematics (P-7A)",
+        "description": "This course in an introduction to the topics of discrete mathematics, including number system sets and logic, relations, combinatorial methods, graph theory, regular sets, vectors, and matrices. (MATH-101 College Algebra or equivalent)"
+    },
+    {
+        "courseID": "MATH-161",
+        "title": "Applied Calculus (P-7B)",
+        "description": "This course is an introduction to the study of differential and integral calculus, including the study of functions and graphs, limits, continuity, the derivative, derivative formulas, applications of derivatives, the definite integral, the fundamental theorem of calculus, basic techniques of integral approximation, exponential and logarithmic functions, basic techniques of integration, an introduction to differential equations, and geometric series. Applications in business, management sciences, and life sciences will be included with an emphasis on manipulative skills. (Prerequisite: C or better in MATH-101 College Algebra, or a score of at least 55% on the RIT Mathematics Placement Exam)"
+    },
+    {
+        "courseID": "MEDI-130",
+        "title": "Computers in Medicine",
+        "description": "This is an introduction to computer technology and its use in the medical field.  About half of the course is devoted to the study of computers, their basic components and peripheral devices, the storage and retrieval of data, electronic communications and the Internet.  The other half of the course deals with medical data and major applications of computers in medicine, including Hospital Information Systems (HIS), medical imaging, surgery, telemedicine, and pharmacy.  Through demonstration and computer laboratory assignments, students are exposed to personal productivity software such as word processors, spreadsheet and database systems, presentation software and medical applications.  Class 3, Credit 3 (F, S)"
+    },
+    {
+        "courseID": "MEDI-320",
+        "title": "Medical Database Architectures",
+        "description": "This is an in-depth study of database architectures used in the medical field. Students will learn about the different types of database architecture in support of medical education, clinical research and clinical applications. Database design and programming assignments will be required. (Prerequisites: MEDI-310, ISTE-230) Class 3, Credit 3 (S)"
+    },
+    {
+        "courseID": "MEDI-330",
+        "title": "The Electronic Health Record",
+        "description": "This course provides an introduction and hands-on practice in both the use and development of electronic health records. Students address issues related to the acquisition, storage, and use of information in computer-based health records including the various types of information used in clinical care: text, structured data, images, audio, video, etc. Other topics covered include: clinical vocabularies (existing schemes and their limitations); how clinical information is generated and utilized; methods of information storage and retrieval; and the legal, social and regulatory problems associated with electronic health records such as security and confidentiality. Programming assignments will be required. (Prerequisite: MEDI-320)"
+    },
+    {
+        "courseID": "MEDI-430",
+        "title": "Medical Application Integration",
+        "description": "This course will provide students with an understanding of application integration in healthcare. Java programming assignments will be required. Students will also learn medical business processes and how they impact data integration within a hospital. Middleware message brokers will be examined along with the use of the HL7 messaging standard.  Web services and other forms of data integration will be studied. (Prerequisites: MEDI-330, ISTE-121)  Class 3, Credit 3 (S)"
+    },
+    {
+        "courseID": "MEDI-610",
+        "title": "Scripting Fundamentals",
+        "description": "This course is an introductory scripting course. Students will learn to design softwaresolutions using the procedural approach, to implement software solutions using acontemporary programming language, and to test these software solutions. Topicsinclude problem definitions, designing solutions, implementing solutions using acontemporary programming language, implementing a contemporary library/framework,and testing software solutions. Programming projects will be required."
+    },
+    {
+        "courseID": "MEDI-701 ",
+        "title": "Introduction to Health Informatics",
+        "description": "This course provides a rigorous introduction to the principles of health informatics. Thefocus  is on the study of the nature of health information and its use inclinical practice, clinical quality, and clinical efficiency improvements. Key topics include: the electronic health record (EHR) and its impact on health care delivery, the Internet and mobile computing as sources of medical information, Healthcare Information Systems, thesoftware development lifecycle, the importance of the informatics specialists in medicineand the various roles they can play, and government economic incentives and policyissues in healthcare such as privacy, confidentiality, including health care regulatory andaccreditation issues and the Health Insurance Portability and Accountability Act(HIPAA).Students will participate in online discussion of health informatics. They will alsoinvestigate several topics of interest in the field and provide presentations. "
+    },
+    {
+        "courseID": "MEDI-704 ",
+        "title": "Practice of Healthcare",
+        "description": "This 7 week course is an introduction to clinical practice for graduate students in Health Informatics.It consists of the study of several medical specialties, including shadowing of clinicians.Students will round with providers, assist with information gathering and dissemination, and observe specialty disease process, diagnosis, and treatment.They will observe and note clinical workflow and technology usage.They will interact with team members and assist with the acquisition of reference knowledge as appropriate.Students are asked to develop a Capstone project as an output from this course."
+    },
+    {
+        "courseID": "MEDI-705  ",
+        "title": "Medical Knowledge Structures",
+        "description": "This course presents concepts related to organization and retrieval of knowledge-basedinformation in the health sciences. It includes a study of classification schemes, controlledvocabularies and thesauri, metadata, and ontologies. Major schemes and systems examined, forexample, include MeSH, UMLS, and PubMed. Also covered are the topics of knowledgeretrieval at the point of care, and knowledge discovery."
+    },
+    {
+        "courseID": "MEDI-730 ",
+        "title": "Medical Application Integration",
+        "description": "A typical hospital information system architecture contains a variety of best of breed applicationsrunning on different hardware and software platforms. Exchange of information between theseapplications can be a significant problem. In this course, students will learn how to leverage theloose coupling of service-oriented architectures and message oriented middleware to address the issues of data integration between these types of computer programs when executing acrossdomains.  Programming projects will be required. (MEDI-701, ISTE-608, Java Programming)"
+    },
+    {
+        "courseID": "MEDI-731  ",
+        "title": "System Integration Concepts",
+        "description": "This course will provide students with an understanding of application integrationconcepts in healthcare. Students will also learn medical business processes and how theyimpact data integration within a healthcare setting. Middleware message brokers will beexamined along with the use of the HL7 messaging standard. Web services and otherforms of data integration will be studied. Students will develop integration solutions tosupport healthcare information systems exchange and validation procedures and solutionsto ensure the quality of information exchanged between healthcare systems. "
+    },
+    {
+        "courseID": "MEDI-735  ",
+        "title": "Healthcare Systems",
+        "description": "A study of the component approach to clinical information systems. Students will learnabout the evolution of Health Information Systems, and the variety of systems offered byvendors at the present time. The importance of the Electronic Health Record (EHR), theComputerized Physician Order Entry (CPOE) and Clinical Decision Support will bestressed as they become the focal points in clinical information systems. The followingcomponents will be studied in detail: patient, activity, health record, knowledge, andsecurity components. The role of imaging management and integration will also bereviewed."
+    },
+    {
+        "courseID": "MEDI-766",
+        "title": "Building the Electronic Health Record",
+        "description": "This course explores the acquisition, storage, and use ofinformation in the electronic health record (EHR) through hands-ondevelopment and programming. Students will learn about the types ofinformation used in clinical care: text, structured data, images, andsounds. Other topics covered include: clinical vocabularies (existingschemes and their limitations); how clinical information is generatedand utilized; methods of information storage and retrieval; departmentalsystems (laboratory, radiology, and hospital information systems);organizational systems (including scheduling, registration and financialsystems); and the legal, social and regulatory problems of EHRsincluding security and confidentiality."
+    },
+    {
+        "courseID": "MEDI-788  ",
+        "title": "Capstone in Health Informatics",
+        "description": "This team-based course provides students with the opportunity to apply theknowledge and skills learned in coursework to design, develop, and implement asolution to a real problem in the medical informatics domain. Project teams alsowill be responsible for submitting a final project report, and for making a finalpresentation to project stakeholders. "
+    },
+    {
+        "courseID": "NMDE-111",
+        "title": "New Media Design Digital Survey I",
+        "description": "This project-based course is an investigation of the computer as an illustrative, imaging, and graphical generation tool. It develops foundational design skills in raster and vector image creation, editing, compositing, layout and visual design for online production. Emphasis will be on the application of visual design organization methods and principles for electronic media. Students will create and edit images, graphics, layouts and typography to form effective design solutions for online delivery."
+    },
+    {
+        "courseID": "NMDE-112",
+        "title": "New Media Digital Design Survey II",
+        "description": "Through formal studies and perceptual understanding, including aesthetics, graphic form, structure, concept development, visual organization methods and interaction principles, students will design graphical solutions to communication problems for static and interactive projects. Students will focus on creating appropriate and usable design systems through the successful application of design theory and best practices. Assignments exploring aspects of graphic imagery, typography, usability and production for multiple digital devices and formats will be included."
+    },
+    {
+        "courseID": "NMDE-201",
+        "title": "New Media Design Elements II",
+        "description": "Information design for static, dynamic and interactive multimedia integrates content with visual indicators. Legibility and clear communication of information and direction is important to the success of any user interface design. This course integrates imagery, type, icons, actions, color, visual hierarchy, and information architecture as a foundation to design successful interactive experiences. "
+    },
+    {
+        "courseID": "NMDE-203",
+        "title": "New Media Interactive II",
+        "description": "This course extends previous interactive design and development experience and skills to emphasize interactive design principles and development. The emphasis in this course will be on the creative process of planning and implementing an interactive project across multiple platforms.  Students will concentrate on information architecture, interactive design, conceptual creation, digital assets, visual design and programming for interactions."
+    },
+    {
+        "courseID": "NMDE-302",
+        "title": "New Media Design Graphical User Interface",
+        "description": "This course examines the user-centered and iterative design approaches to application and interactive development with a focus on interface design, testing and development across multiple devices. Students will research and investigate human factors, visual metaphors and prototype development to create effective and cutting edge user interfaces."
+    },
+    {
+        "courseID": "NSA-290",
+        "title": "Networking Essentials for Developers",
+        "description": "This is a course in the basics of network communication for software developers. Topics will include the OSI 7-layer model and its realization in the TCP/IP protocol stack. Students will also learn about naming and name resolution as it is used in the internet, plus the basics of routing and switching. The focus in all of this will be on an analysis of how name resolution, routing and switching operate at the developer`s perspective. The specifics of how the socket transport layer appears to the programmer and operates will be a key topic. Finally, an overview of authentication mechanisms and number of examples of the security vulnerabilities of existing communication protocols will be provided to instruct students on the inherent risks of communication via the internet. (one year of programming in a high level language (Prerequisite: ISTE-121)"
+    },
+    {
+        "courseID": "NSA-capstone",
+        "title": "Capstone Experience",
+        "description": "Capstone Experience will consist of either:NSSA-791 NSSA Project (w/4 elective courses)orNSSA-790 MS Thesis (w/3 elective courses)"
+    },
+    {
+        "courseID": "NSA-MS-Concentration",
+        "title": "Concentration Course",
+        "description": "Please see the next section [Concentrations] for a deeper look at our concentrations"
+    },
+    {
+        "courseID": "NSA-MS-elective",
+        "title": "Elective",
+        "description": "Please see the next section [Electives] for a deeper look at our elective courses"
+    },
+    {
+        "courseID": "NSA-MS-project",
+        "title": "Project Track",
+        "description": "Four elective courses (see Degree Electives below)NSSA-791 Project (3 credits)"
+    },
+    {
+        "courseID": "NSA-MS-thesis",
+        "title": "Thesis Track",
+        "description": "Three elective courses (see Degree Electives below)NSSA-790 Project (6 credits)"
+    },
+    {
+        "courseID": "NSSA-101",
+        "title": "NSSA Themes",
+        "description": "This course is an introduction to the fundamentals from each of the primary areas of the Networking, Security and Systems Administration (NSSA) domain.  Students will develop a collective view of the NSSA field as they experience and integrate the perspectives of the sub-domain areas.  Students will carry this perspective into the other supporting coursework of their degree program.  Topics will focus on the core concepts in the three areas: 1.) wired and wireless networking; 2.) system and network security and awareness, and 3.) systems administration.  Emerging technologies in each of the areas will be explored.  A project and case studies will be used as the basis for exploring and interrelating each of the fundamental topics.(No Prerequisite)"
+    },
+    {
+        "courseID": "NSSA-102",
+        "title": "Computer Systems Concepts",
+        "description": "This course teaches the student the essential technologies needed by NSSA majors, focused on PC and mainframe hardware topics. They include: how those platforms operate, how they are configured, and the operation of their major internal components. Also covered are the basic operating system interactions with those platforms, physical security of assets, and computing-centric mathematical concepts.(No Prerequisites)."
+    },
+    {
+        "courseID": "NSSA-220",
+        "title": "Task Automation w/Interp Lang",
+        "description": "An introduction to the Unix operating system and scripting in the PERL and Unix shell languages. The course will cover basic user-level commands to the Unix operating system, followed by basic control structures, and data structures in PERL. Examples will include GUI programming, and interfacing to an underlying operating system. Following PERL, students will be introduced to the basics of shell programming using the Unix bash shell. (Prerequisite: ISTE 121 or one year of programming in an object-oriented language.)"
+    },
+    {
+        "courseID": "NSSA-221",
+        "title": "System Admin I",
+        "description": "To become a successful system administrator, a person needs to have not only the knowledge of the fundamental computer concepts and essential system administration tasks, but also the ability to apply technologies and tools effectively in an organizational environment. This course is designed to provide students with basic knowledge and skills that an effective system administrator must know. Students will learn fundamental concepts underlying operating systems, as well as the essential system administration tasks. Student will also explore technologies and platform integration tools in a heterogeneous network environment.At the end of this course, students will be able to explain the general concepts and essential tasks of system administration, and will be able to effectively apply and deploy technologies and administrative tools in an organizational environment. (Prerequisite: NSSA-220)"
+    },
+    {
+        "courseID": "NSSA-241",
+        "title": "Intro to Routing and Switching",
+        "description": "This course is an introduction to wired network infrastructures, topologies, technologies and protocols required for effective end-to-end communication.   Basic security concepts are also introduced at the local area network communication level.   Networking layers 1, 2 and 3 are examined in-depth using the International Standards Organization?s Open Systems Interconnection and TCP/IP models.  Topics focus on the TCP/IP protocol suite, the Ethernet LAN protocol, and routed and routing protocols common in local area networks. (Prerequisite: NSSA-102)"
+    },
+    {
+        "courseID": "NSSA-242",
+        "title": "Wireless Networking",
+        "description": "This course is designed to provide the student with an understanding of the protocols, principles and concepts of radio and optical communication as they apply to wireless data networking for local area networks and peripherals. As its basis it uses the fundamental concepts and technologies learned in Networking I, and expands upon them to include other contemporary and emerging technologies.  Topics including WLANs, wireless network operation, network integration, construction and network design will be discussed.  Modulation techniques, measurement standards, nomenclature, equipment and theory behind transmissions in this portion of the electromagnetic spectrum will be examined. (Prerequisite: NSSA-241)"
+    },
+    {
+        "courseID": "NSSA-244",
+        "title": "Virtualization",
+        "description": "This class will take the students through the evolution of virtualization. The class begins with virtual network topologies such as VLANs, trunks and virtual routing and forwarding. The class will examine the various desktop virtualization platforms (Type 1) such as VirtualBox and VMWare workstation. Midway through the class students will transition into bare metal hypervisors (Type 2) and server virtualization. Elements of software defined networking and cloud computing will also be discussed. (Prerequisites: NSSA-221, NSSA-241)"
+    },
+    {
+        "courseID": "NSSA-245",
+        "title": "Network Services",
+        "description": "An investigation of the tasks of selecting, configuring and administering services in an internetworking environment. Topics include the TCP/IP protocol suite, service administration including DHCP, DNS, SSH, Kerberos, and an introduction to directory services. Students completing this course will have experience in administering, monitoring and securing an internetwork of computers with a variety of these services as well as an understanding of the similarities and differences between protocols in the TCP/IP suite (TCP and UDP).(Prerequisites: NSSA-220, NSSA-241)"
+    },
+    {
+        "courseID": "NSSA-320",
+        "title": "Configuration Management",
+        "description": "This course teaches students advanced techniques in the Perl language. Techniques include the use and construction of object oriented scripts, user administration and monitoring, file system walking and checking, and computer and network security issues. (Prerequisite: NSSA-220)"
+    },
+    {
+        "courseID": "NSSA-322",
+        "title": "Sys Admin II",
+        "description": "This course builds on the concepts and topics covered in NSSA-321 System Administration I to help students understand the roles and responsibilities of system administrators in modern organizations.  Students will gain a much deeper understanding of and appreciation for different models of service deployment.  Co-requisite with this course student will take NSSA 323 System Administration Lab where they will implement the technologies discussed in this class.  As part of this class students will complete formal and informal writing assignments designed to help students both learn to write and write to learn.  Students will receive feedback from their instructor to facilitate the writing process and will be asked to incorporate the feedback to complete substantive revisions of the work.  Writing conventions for the field of system administration will be an important topic of discussion in the class. Examples of writing assignments may include journals, reaction-response essays, case studies, essays, proposals and research papers.  Writing assignments will make up a minimum of 20% of the grade students receive in the class.(Prerequisites: NSSA-221)"
+    },
+    {
+        "courseID": "NSSA-341",
+        "title": "VoIP and Unified Comm. I",
+        "description": "Students will explore the issues associated with migrating to newer systems and implement their own IP based data networks.  These networks will be designed to carry real time data, including IP telephony. (Prerequisite: NSSA-242)"
+    },
+    {
+        "courseID": "NSSA-342",
+        "title": "VoIP and Unified Communications II ",
+        "description": "This course will discuss the changing nature of communication, the requirements of emerging applications, the effect on network design, quality of service and the associated security concerns. The focus is on the evolution of multimedia services (such as voice and video) and Internetworking technologies in support convergence. While examining upcoming technologies and future trends that will impact the direction of IP and broadband technology development, of primary concern will be standards, protocols, deployment, and emerging technologies involved in the Voice over IP, Video over IP and Unified Communication systems. (Prerequisite: NSSA-341)"
+    },
+    {
+        "courseID": "NSSA-370",
+        "title": "Project Management",
+        "description": "This course teaches the student the essential project management basics needed by NSA majors. Exposure to project lifecycles and a sampling of PM best practices will be covered."
+    },
+    {
+        "courseID": "NSSA-422",
+        "title": "Storage Architectures",
+        "description": "This course is designed to provide a theoretical as well as hands-on experience with various storage architectures.  Enterprise scale storage architectures such as Storage area networks and network attached storage have become an area of expertise that is very important for our students to understand.  This course will expose students to the basics of these technologies with the goal of preparing them for careers where they will interact with theses technologies. (Prerequisite: NSSA-322)"
+    },
+    {
+        "courseID": "NSSA-423",
+        "title": "Scalable Computing Architectures",
+        "description": "This course explores mid-range (server farms and clusters) and mainframe system architecture, hardware, configuration, and operating system concepts. Students in this course gain understanding of the reasons companies choose mid-range and large-scale systems for their computing environments and how those firms implement those architectures.(Prerequisite: ISTE-121)"
+    },
+    {
+        "courseID": "NSSA-425",
+        "title": "Data Center Operations",
+        "description": "This course provides students with a background in the technologies and techniques used to design, implement and maintain a modern data center.  This course will help students to see the interrelated nature of many of these topics and to gain a better understanding of the role of the following technologies in a modern data center: physical facility design, network infrastructures, power distribution, heating, ventilation and air conditioning (HVAC), storage, high-availability computing, disaster recovery, and emerging datacenter technologies. (Prerequisite: NSSA-322)"
+    },
+    {
+        "courseID": "NSSA-427",
+        "title": "Scalable Web Services Architectures",
+        "description": "Web applications can be highly variable in both their workload and the amount of resources required to support their provision of services to users.  Having access to cloud based resources allows organizations to actively manage service deployment in different ways and with different tools.  This course will enable students to utilize and develop cloud-based implementations of tools, such as load balancing and distributed systems architectures, and identify the challenges associated with the provision of services in this environment and some of the cloud-based tools and techniques used to manage service deployment.  Projects will be required. (Prerequisites: [NSSA-241 & NSSA-320] OR [NSSA-290 & ISTE-444])"
+    },
+    {
+        "courseID": "NSSA-441",
+        "title": "Advanced Routing &amp; Switching",
+        "description": "Advanced Routing and Switching covers advanced networking technologies available to enterprises to build a large intranet infrastructure. Protocol options and tools to analyze and optimize performance are explored in depth.  Topics include: WANs, WAN protocols, IPv6 and transition issues, core routers and routing protocols, queuing and Quality of service, redistribution, multicast routing, access control lists, variable length subnet masking, network address translation, MultiProtocol Label Switching, RSTP, shortest path bridging emerging switching technologies, VLAN tagging, trunking, and port aggregation.  (Prerequisite: NSSA-241)"
+    },
+    {
+        "courseID": "NSSA-443",
+        "title": "Network Design &amp; Performance",
+        "description": "This course will examine the design and performance of networks. Students will learn to design networks based on identified needs and analyze the performance of that network. The designs include site, campus, and enterprise. WAN technologies will be combined with LAN technologies in the design of enterprise networks. A simulation tool may be used to implement the design as a network model and evaluate the performance of the network model.(Prerequisite: NSSA-241 and NSSA-322)"
+    },
+    {
+        "courseID": "NSSA-445",
+        "title": "Mobile Adhoc &amp; Sensor Networks",
+        "description": "This course will help students to identify the major issues associated with ad-hoc/sensor networks. Students will explore current ad-hoc/sensor technologies by researching key areas such as algorithms, protocols, hardware, and applications. Students will learn to develop simulation models of real sensor and ad hoc networks and study their performance when applying different wireless routing solutions. At the end of this course students will gain hands-on experience through real-world simulation projects on ad-hoc/sensor hardware. Students are required to have one year of programming in an object-oriented language (Prerequisite: NSSA-242 Wireless Networking)."
+    },
+    {
+        "courseID": "NSSA-601",
+        "title": "Research Methods and Proposal Dev",
+        "description": "It is important that students in this graduate program be able to assess the current technological trends and foresee the essential future needs of the technologies.  This course is designed to help students in this direction. Students will be encouraged to investigate the continuing networking and computing problems, problems that arise due to advances in these technologies, and those due to user demands in the area of networking and system administrations.  This will provide the foundations for the student to decide on a project/thesis topic. Invited talks from faculty and members from other institution to share their research and scholarship work will seed such research thinking. Students will be encouraged to interact with faculty members to formulate their project / thesis topics and scope."
+    },
+    {
+        "courseID": "NSSA-602",
+        "title": "Enterprise Computing",
+        "description": "This course explores enterprise systems (clouds, server farms, mainframes, and clusters/grids) from the environment, networking, storage, security, and system administration perspectives. Students in this course gain an understanding of the knowledge and concepts needed to manage, perform research in, and administrate those architectures. (Prerequisite: NSSA-323 or equivalent)"
+    },
+    {
+        "courseID": "NSSA-610",
+        "title": "Advanced Wired Networking Concepts",
+        "description": "This course will cover the principles of wired networking with a focus on algorithms, protocols and implementation of advanced wired networking concepts. The course will begin with in-depth background in architecture and protocols at physical, data link, network, and transport layers. Also, theoretical aspects of wired network challenges are discussed with a research focus. The course also explores the realm of wired technologies such as peer-to-peer networks, future internet, real-time applications, smart grid, IPv4 and IPv6 integration and translation.  Students will learn about these technologies through lectures and explore some of them though a class project. Students will be exposed to and may have the opportunity to participate in applicable faculty research projects."
+    },
+    {
+        "courseID": "NSSA-611",
+        "title": "Advanced Topics in Wireless Networks and Technologies",
+        "description": "The course is designed to provide comprehensive exposition to the challenges faced in wireless networks and technologies in the different protocol layers. Leading work conducted to address the challenges faced in the new techniques such as cross layered and integrated approaches will be covered. From the challenges perspective, case studies based on several upcoming wireless technologies and networks will be presented. In most cases, the standards efforts follow the deployment, which lags the research effort. Some of the standardization efforts and their impacts in industry deployment and the effect of research on standardization will be covered. While learning will be based on case studies, students will be exposed to and may have the opportunity to participate in applicable faculty research projects."
+    },
+    {
+        "courseID": "NSSA-612",
+        "title": "Network Modeling and Analysis ",
+        "description": "The course provides comprehensive exposition of the core concepts in network modeling and simulation. It will cover both graph theoretical and statistical models of complex networks such as the Internet and social networks. It also introduces different types of modeling techniques and simulation tools. The course also systematically addresses some practical and theoretical considerations for developing complex modeling. It offers real world examples to illustrate the process of modeling to address specific problems."
+    },
+    {
+        "courseID": "NSSA-615",
+        "title": "Advanced OOP for Networking and Systems Admin",
+        "description": "This is a course in Object Oriented Programming. Students must have completed one year of OO programming prerequiste, as the course will presume that level of knowledge and will build from there.  Two or three languages will be studied. The languages chosen will have direct and immediate applicability to the MS in Networking and Systems Administration program and will be chosen for their use in the topic areas of that degree program. Students will be quickly led through the primitive types and control structures of each language and immersed in significant projects using advanced language features.Note: Student must have one year of programming in an object oriented programming language."
+    },
+    {
+        "courseID": "NSSA-620",
+        "title": "Emerging Computing and Networking Technologies",
+        "description": "Computer networking and computer system technologies have dramatically changed the way that businesses operate and how they accomplish their organizational goals. Most of the current technologies used today have their roots in the early days of the Internet and computing. The changes that have occurred since then have been largely at the margins, rather than developed in a wholesale fashion. As our discipline moves forward there are a substantial number of emerging technologies in development to address the inadequacies of the currently deployed technologies. If widely adopted, these technologies will change how technologies support organizations and individuals creating a whole new paradigm for computing, networking, and the security of our computing environment.Students will be researching the current state of several of the most significant emerging technologies. The course will consist of a combination of lectures where technologies will be presented and explained; independent labs, modeling and simulation exercises that will reinforce the students` understanding of the technologies by allowing them to work with them in a hands-on fashion; and independent literature research do serve as a foundation for future work in this degree program. (Prerequisites: Knowledge of networking, systems, and security technologies equivalent to the core of the NSSA BS degrees.)"
+    },
+    {
+        "courseID": "NSSA-621",
+        "title": "Design and Deployment of Wireless Networks",
+        "description": "This course will take students through large scale wireless systems. It will also cover the significant access wireless networks. Important areas of concern will be contemporary and emerging Wireless Local Area Network (WLAN) standards, cellular communication and other forms of wireless access such as wireless internet service provision. Focal points for these areas will be protocol operation, network architecture and security concerns."
+    },
+    {
+        "courseID": "NSSA-622",
+        "title": "Carrier Networking",
+        "description": "This course is primarily concerned with the issues associated with carrier networks in Wide Area Networks (WAN). Major protocols such as Border Gateway Protocol (BGP), Multiprotocol Label Switching (MPLS), T-carriers, Metro Ethernet and Synchronous Optical Networking (SONET) will form the backbone of the content. In addition to protocol architecture and operation, the course will also examine the integrated nature of these protocols as they support contemporary communication applications."
+    },
+    {
+        "courseID": "NSSA-710",
+        "title": "Network Management",
+        "description": "This course provides an introduction to network management concepts with hands-on laboratory sessions in developing network management applications and using it to study and analyze the performance of networks, data communications hardware and software, and use of these components in computer networks. Topics include but are not limited to introduction to network management concepts, the five basic network management functions namely fault management, configuration management, performance management, accounting management and security management, introduction to Simple Network Management Protocol (SNMP) and its versions, Remote monitoring and different network management architectures. (Prerequisites: Knowledge of C or C++, NSSA-243 or equivalent)"
+    },
+    {
+        "courseID": "NSSA-712",
+        "title": "Advanced Storage Technologies",
+        "description": "Data storage is an integral and essential component of every computer system.  This course explores the spectrum of storage technologies ranging from Direct Access Storage to 'Just a Bunch of Disks' (JBODS) to Storage Area Networks (SAN). Media types including Ramdisk, Flash, Solid State Drives, magnetic, optical and other emerging technologies will be investigated. The issues to be faced as systems grow to enterprise scale will also be addressed. Features of local, distributed, and networked storage including SANs will be introduced as well as issues such as capacity planning, virtualization, decentralized storage, security, crash recovery and load balancing, and maintenance in support of high performance systems and maintenance. (Prerequisite: NSSA-323 or equivalent)"
+    },
+    {
+        "courseID": "NSSA-713",
+        "title": "Enterprise Service Provisioning",
+        "description": "Advances in server software and hardware have made it possible for large organizations to consolidate software services onto fewer, higher powered servers while at the same time enhancing reliability and availability. This course will explore available technologies such as cluster computing and server virtualization as they can be used to deploy software services in enterprise environments. (Prerequisite: NSSA-602)"
+    },
+    {
+        "courseID": "NSSA-714",
+        "title": "Advanced Large Scale Computing ",
+        "description": "This course explores, in depth, large-scale systems (mainframes, clouds, clusters/grids) from an advanced perspective in the environment, networking, storage, security, and system administration topics. Students in this course gain the ability needed to design and justify, perform research in, and administer those enterprise-scale systems. (Prerequisite: NSSA-602)"
+    },
+    {
+        "courseID": "NSSA-715",
+        "title": "Network Design &amp; Performance",
+        "description": "This course will examine the design and performance of networks. Students will learn to design networks based on identified needs and analyze the performance of that network.  The designs include site, campus, and enterprise networks.  Wide Area Network (WAN) technologies will be combined with Local Area Network (LAN) technologies in the design of enterprise networks.  Students will learn to assess the business goals and their application to the network goals.  Students will learn to evaluate the security goals of the network and to integrate these goals in the design. (Prerequisite: NSSA-602)"
+    },
+    {
+        "courseID": "NSSA-716",
+        "title": "Enterprise Mobile Computing ",
+        "description": "This course will cover technologies for web-based mobile cloud computing especially for business solutions.  The course covers enterprise mobile computing architecture, emerging mobile computing technologies, operating system, and security.  Also, the course discusses different applications of mobile computing in mobile ad hoc and sensor networks. (Prerequisites: NSSA-242 and NSSA-243 or equivalent.)"
+    },
+    {
+        "courseID": "PHYS-111",
+        "title": "College Physics I",
+        "description": "This is an introductory course in algebra-based physics focusing on mechanics, waves, and optics.  Topics include kinematics, planar motion, Newton?s laws, gravitation; rotational kinematics and dynamics; work and energy; momentum and impulse; conservation laws; fluids; simple harmonic motion; mechanical and electromagnetic waves; geometrical optics; physical optics and interference; data presentation/analysis and error propagation.  The course is taught using both traditional lectures and a workshop format that integrates material traditionally found in separate lecture, recitation, and laboratory settings.  (Prerequisite: Competency in algebra, geometry and trigonometry.)"
+    },
+    {
+        "courseID": "PHYS-112",
+        "title": "College Physics II",
+        "description": "This course is an introduction to algebra-based physics focusing on thermodynamics, electricity and magnetism, and elementary topics in modern physics.  Topics include heat and temperature, laws of thermodynamics, electric and magnetic forces and fields, DC and AC electrical circuits, electromagnetic induction, the concept of the photon, and the Bohr model of the atom. The course is taught using both traditional lectures and a workshop format that integrates material traditionally found in separate lecture, recitation, and laboratory settings. (Prerequisite: PHYS-111)."
+    },
+    {
+        "courseID": "PSYC-101",
+        "title": "Introduction to Psychology",
+        "description": "Introduction to the field of psychology. Provides a survey of basic concepts, theories, and research methods. Topics include: thinking critically with psychological science; neuroscience and behavior; sensation and perception; learning; memory; thinking, language, and intelligence; motivation and emotion; personality; psychological disorders and therapy; and social psychology. Required course for psychology majors."
+    },
+    {
+        "courseID": "PSYC-223",
+        "title": "Cognitive Psychology",
+        "description": "This course examines how people perceive, learn, represent, remember and use information. Contemporary theory and research are surveyed in such areas as attention, pattern and object recognition, memory, knowledge representation, language acquisition and use, reasoning, decision-making, problem solving, creativity, and intelligence. Applications in artificial intelligence and human/technology interaction may also be considered."
+    },
+    {
+        "courseID": "PSYC-235",
+        "title": "Learning &amp; Behavior",
+        "description": "This course covers topics in learning such as non-associative learning, classical conditioning, instrumental conditioning, stimulus control of behavior, reinforcement, generalization and discrimination, and observational learning. Topics on learning and behavior in non-human animals may also be covered."
+    },
+    {
+        "courseID": "PSYC-250",
+        "title": "Research Methods I",
+        "description": "This course will serve as an introduction to research methods in Psychology, with the goal of understanding research design, analysis and writing.  Topics include examining the variety of methods used in psychology research, understanding research ethics, developing empirical hypotheses, designing experiments, understanding statistical concepts, interpreting results, and writing research and review papers in APA style.  This course is offered in sequence with PSYC-251."
+    },
+    {
+        "courseID": "PSYC-251",
+        "title": "Research Methods II",
+        "description": "This course will serve as an advanced research methods course in Psychology, and will build on the foundational knowledge presented in Research Methods I.  Topics and tasks for this  course include designing single and multi-factor experiments, interpreting correlational research, completing statistical analyses appropriate to design, completing and analyzing an IRB application, understanding observational and survey research, and presenting results in APA style.  This course is offered in sequence with PSYC-250 Research Methods I."
+    },
+    {
+        "courseID": "PSYC-330",
+        "title": "Memory &amp; Attention",
+        "description": "This course reviews current research in the areas of memory and attention. This course will consider such memory topics as: the classic three stores theory of memory and Baddeley`s model of working memory, information processing, implicit and explicit memory, principles of forgetting, developmental changes in memory, skill memory, autobiographical memory, eyewitness memory, and the neural bases of memory. Attention topics covered in this course will include: Selective and divided attention, search and vigilance, signal detection theory, and neural correlates of attention."
+    },
+    {
+        "courseID": "PSYC-331",
+        "title": "Language &amp; Thought",
+        "description": "This course is intended for students in the Cognitive Processing track.  This course examines the structure of human language and its relationship to thought, and surveys contemporary theory and research on the comprehension and production of spoken and written language.  In addition, we will discuss categorization, representation of knowledge, expertise, consciousness, intelligence, and artificial intelligence.  Topics on language and thought in non-human animals may also be covered."
+    },
+    {
+        "courseID": "PSYC-332",
+        "title": "Decision, Judgments, &amp; Problem Solving",
+        "description": "This course explores judgment and decision-making and problem-solving processes and focuses on the social and cognitive aspects of complex information processing. Major topics include normative, descriptive (heuristics and biases), and naturalistic approaches to decision-making, as well as selective perception, memory and hindsight biases, framing effects, heuristics, social influences, group processes and human error. Formal, normative models of decision-making considered include the prospect theory, expected utility theory, and Bayes` Theorem. Problem solving will be examined from perspectives of formal, computational methods as well as intuition and creativity. Experimental methods in the research of judgment and decision-making and problem solving and applications in design of systems and decision aids will receive special attention."
+    },
+    {
+        "courseID": "PSYC-640",
+        "title": "Graduate Statistics",
+        "description": "[Need Description]"
+    },
+    {
+        "courseID": "STAT-145",
+        "title": "Intro to Statistics I",
+        "description": "This course will study the statistical methods of presenting and analyzing data. Topics covered include descriptive statistics and displays, random sampling, the normal distribution, confidence intervals, and hypothesis testing. The statistical software MINITAB is used to reinforce these principles and to introduce the use of technology in statistical analysis. This is a general introductory statistics course and is intended for a broad range of programs. Note: This course may not be taken for credit if credit is to be earned in STAT-205. (Prerequisite: MATH-101  or equivalent)"
+    },
+    {
+        "courseID": "STAT-146",
+        "title": "Intro to Statistics II",
+        "description": "This course is an elementary introduction to the topics of regression and analysis of variance. The statistical software package Minitab will be used to reinforce these techniques. The focus of this course is on business applications. This is a general introductory statistics course and is intended for a broad range of programs. (Prerequisite: STAT-145)"
+    },
+    {
+        "courseID": "SWEN-383",
+        "title": "Software Design Principles &amp; Patterns",
+        "description": "Quality software designs and architectures reflect software engineering principles that represent best contemporary practice. This course focuses on explicating these fundamental principles, examining a set of design and architecture patterns that embody the principles, and applying patterns appropriate to a design problem in a given context. Not open to those taking SWEN-262. (Co-Requisite: ISTE-340)"
+    },
+    {
+        "courseID": "WMC-Concentration-2014",
+        "title": "Concentration Course",
+        "description": "For more information, please see the next section [Concentrations] for a deeper look.  The concentrations you could pursue within the WMC degree are:Web Application DevelopmentMobile DevelopmentDatabaseApplication Development"
+    },
+    {
+        "courseID": "WMC-Concentration-2015",
+        "title": "Concentration Courses",
+        "description": "For more information, please see the next section [Concentrations] for a deeper look.  The concentrations you could pursue within the WMC degree are:Web Application DevelopmentMobile Application DevelopmentGeographic Information SystemsWearable & Ubiquitous Development"
+    },
+    {
+        "courseID": "WMC-Concentrations",
+        "title": "Concentration Courses",
+        "description": "For more information, please see the next section [Concentrations] for a deeper look.  The concentrations you could pursue within the WMC degree are:Web Application DevelopmentMobile Application DevelopmentWearable & Ubiquitous DevelopmentProject Life CycleDatabase"
+    }
+]
