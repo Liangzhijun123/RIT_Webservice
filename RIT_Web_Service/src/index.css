@@ -52,7 +52,7 @@ body {
 
 .school {
   width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: cover;
 }
 
@@ -107,7 +107,6 @@ body {
 }
 
 .degree {
-  height: 100%;
   padding-top: 112px;
   padding-bottom: 112px;
   padding-left: 64px;
@@ -396,4 +395,105 @@ h1:hover span {
   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
 }
 
+@media (max-width: 1400px) {
+  .stuff {
+    grid-template-columns: repeat(3, 1fr);
+  }
 
+  .stuff3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 1024px) {
+  .stuff {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .stuff3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .title {
+    width: 90%;
+  }
+
+  .explore {
+    font-size: 38px;
+  }
+
+  .discover {
+    font-size: 18px;
+  }
+
+  .butn {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .butn1 {
+    width: 120px;
+    height: 45px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .stuff {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .stuff3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .title {
+    width: 90%;
+  }
+
+  .explore {
+    font-size: 32px;
+  }
+
+  .discover {
+    font-size: 16px;
+  }
+
+  .butn1 {
+    width: 110px;
+    height: 42px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 375px) {
+  .stuff {
+    grid-template-columns: 1fr;
+  }
+
+  .stuff3 {
+    grid-template-columns: 1fr;
+  }
+
+  .title {
+    width: 95%;
+  }
+
+  .explore {
+    font-size: 28px;
+  }
+
+  .discover {
+    font-size: 14px;
+  }
+
+  .butn1 {
+    width: 100px;
+    height: 40px;
+    font-size: 12px;
+  }
+
+  .degree, .faculty {
+    padding: 20px;
+  }
+}
