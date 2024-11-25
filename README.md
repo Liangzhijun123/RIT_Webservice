@@ -45,17 +45,17 @@ Custom CSS ensures the `<tbody>` is scrollable while maintaining proper alignmen
 ```css
 tbody {
 display: block;
-height: 300px; /* Fixed height for scrollable area */
+height: 300px; 
 overflow-y: auto;
 }
 
 thead {
 position: sticky;
 top: 0;
-background: #f9f9f9; /* Optional styling for the header */
+background: #f9f9f9; 
 }
 
 table {
-table-layout: fixed; /* Ensures proper column alignment */
-width: 100%; /* Makes the table responsive */
+table-layout: fixed;
+width: 100%;
 }
