@@ -14,6 +14,7 @@ const Nav = () => {
             <a className="link" href="#about-us">About Us</a>
             <a className="link" href="#degree">Our Degrees</a>
             <a className="link" href="#faculty">Faculty</a>
+            <a className="link" href="#map">Map</a>
           </div>
         </div>
       </div>
