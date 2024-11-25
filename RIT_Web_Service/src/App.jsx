@@ -5,6 +5,7 @@ import About from './Components/About';
 import Degree from './Components/Degrees';
 import Faculty from './Components/Faculty';
 import Footer from './Components/Footer';
+import Map from './Components/Map';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +16,7 @@ function App() {
       <About/>
       <Degree/>
       <Faculty/>
+      <Map/>
       <Footer/>
     </>
   )
