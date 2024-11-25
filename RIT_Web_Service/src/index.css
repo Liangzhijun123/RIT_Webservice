@@ -106,6 +106,19 @@
   white-space: normal; 
 }
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-wrapper {
+  width: 100%;
+  max-width: 100%; 
+  overflow: hidden;
+}
+
+
+
 .Linknav {
   display: flex;
   flex-wrap: wrap; 
@@ -254,9 +267,9 @@ html {
 .stuff {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  gap: 20px;
+  gap: 40px;
   animation: 3s slide-right;
 }
 

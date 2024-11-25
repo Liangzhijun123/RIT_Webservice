@@ -73,38 +73,37 @@ const Minor = () => {
 
   return (
     <div className="minor">
-      <div className="table-container">
-        <table className="ui fixed table">
-          <thead>
-            <tr>
-              <th>Name</th>
-              <th>Title</th>
-              <th>Description</th>
-              <th>Courses</th>
-              <th>Notes</th>
-            </tr>
-          </thead>
-          <tbody>
-            {data.map((item) => (
-              <tr key={item.name}>
-                <td>{item.name}</td>
-                <td>{item.title}</td>
-                <td className="scrollable-description">
-                  {item.description}
-                </td>
-                <td>
-                  <ul>
-                    {item.courses.map((course, index) => (
-                      <li key={index}>{course}</li>
-                    ))}
-                  </ul>
-                </td>
-                <td>{item.note || "None"}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
+      <div className="table-wrapper">
+  <table className="ui fixed table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Courses</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      {data.map((item) => (
+        <tr key={item.name}>
+          <td>{item.name}</td>
+          <td>{item.title}</td>
+          <td className="scrollable-description">{item.description}</td>
+          <td>
+            <ul>
+              {item.courses.map((course, index) => (
+                <li key={index}>{course}</li>
+              ))}
+            </ul>
+          </td>
+          <td>{item.note || "None"}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>
+
     </div>
   );
 };
