@@ -1,9 +1,77 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { animated } from "@react-spring/web";
 import { styled } from "@stitches/react";
+import "semantic-ui-css/semantic.min.css";
+import { Message, Icon } from "semantic-ui-react";
+
+interface About {
+  title: string;
+  description: string;
+  quote: string;
+  quoteAuthor: string;
+}
+
+const proxyServer = "https://people.rit.edu/~dsbics/proxy/";
+const apiUrl = "https://ischool.gccis.rit.edu/api/";
+
+async function getData<T>(endpoint: string): Promise<T | undefined> {
+  try {
+    const response = await fetch(proxyServer + apiUrl + endpoint);
+    if (!response.ok) {
+      throw new Error(`Failed to fetch: ${response.statusText}`);
+    }
+    const data = await response.json();
+    return data as T;
+  } catch (error) {
+    console.error("Error fetching data:", error);
+    return undefined;
+  }
+}
 
 const About = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [data, setData] = useState<{ about: About[] }>({ about: [] });
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    (async () => {
+      try {
+        const result = await getData<About>("about/");
+        if (result) {
+          setData({ about: [result] }); 
+        } else {
+          console.error("No data found");
+        }
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      } finally {
+        setLoading(false);
+      }
+    })();
+  }, []);
+  
+
+  if (loading) {
+    return (
+      <Message icon>
+        <Icon name="circle notched" loading />
+        <Message.Content>
+          <Message.Header>Just one second</Message.Header>
+          We're fetching that content for you.
+        </Message.Content>
+      </Message>
+    );
+  }
+
+  if (error) {
+    return (
+      <Message negative>
+        <Message.Header>Error</Message.Header>
+        <p>{error}</p>
+      </Message>
+    );
+  }
 
   return (
     <div id="about-us">
@@ -15,13 +83,17 @@ const About = () => {
               <span key={index}>{char === " " ? "\u00A0" : char}</span>
             ))}
           </h1>
-
-          <p className="discover">
-            Discover a wide range of opportunities in our core areas, including
-            About, Degrees, Minors, Employment, and People. Each section is
-            designed to guide you through your academic journey and career
-            prospects.
-          </p>
+  
+          {data.about.map((item, index) => (
+            <div key={index}>
+              <p className="discover">{item.description}</p>
+              <blockquote>
+                <p>"{item.quote}"</p>
+                <footer>- {item.quoteAuthor}</footer>
+              </blockquote>
+            </div>
+          ))}
+  
           <div className="butn">
             <Trigger onClick={() => setIsOpen(true)}>
               <TriggerShadow />
@@ -36,13 +108,10 @@ const About = () => {
           </div>
         </div>
       </div>
-      {isOpen && (
-        <OverlayBackground
-          onClick={() => setIsOpen(false)} 
-        />
-      )}
+      {isOpen && <OverlayBackground onClick={() => setIsOpen(false)} />}
     </div>
   );
+  
 };
 
 export default About;
@@ -125,6 +194,6 @@ const OverlayBackground = styled(animated.div, {
   width: "100vw",
   height: "1100px",
   backgroundColor: "rgba(0, 0, 0, 0.5)",
-  
-  cursor: "pointer", 
+
+  cursor: "pointer",
 });
