@@ -2,6 +2,10 @@
 import React, { useState } from 'react';
 import Grad from './Grad';
 import Undergrad from './Undergrad'; 
+import Minor from './Minor';
+import Employ from './Employ';
+import Courses from './Courses';
+import { motion } from 'framer-motion';
 
 const Degree = () => {
   const [popOutContent, setPopOutContent] = useState<React.ReactNode | null>(null);
@@ -73,10 +77,10 @@ const Degree = () => {
               onClick={() =>
                 handlePopOut(
                   <div>
-                    <h2>Dynamic Minors for Every Interest</h2>
-                    <p>
-                      Choose from a variety of minors to enhance your major.
-                    </p>
+                    <div className="butn2">
+                      <button>Minors</button>
+                    </div>
+                    <Minor/>
                   </div>
                 )
               }
@@ -93,11 +97,7 @@ const Degree = () => {
                 handlePopOut(
                   <div>
                     <h2>Employment</h2>
-                    <p>
-                      Look at our past history of co-op and full-time employment
-                      information of the current and past students in the
-                      department.
-                    </p>
+                    <Employ/>
                   </div>
                 )
               }
@@ -109,6 +109,25 @@ const Degree = () => {
                   Look at our past history of co-op and full-time employment
                   information of the current and past students in the
                   department.
+                </p>
+              </div>
+            </div>
+            <div
+              className="stuff1"
+              onClick={() =>
+                handlePopOut(
+                  <div>
+                    <h2>Courses offers</h2>
+                    <Courses/>
+                  </div>
+                )
+              }
+            >
+              <img src="/ritlake.jpg" alt="degree" className="degimg" />
+              <div className="p5">
+                <p className="comp">Courses offers</p>
+                <p>
+                  This is all the courses that RIT offeres
                 </p>
               </div>
             </div>
