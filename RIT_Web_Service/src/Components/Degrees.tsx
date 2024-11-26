@@ -47,7 +47,7 @@ const Degree = () => {
                 )
               }
             >
-              <img src="/GlobalPlaza.jpg" alt="degree" className="degimg" />
+              <img src="/~zl5660/RIT_Web_Service/GlobalPlaza.jpg" alt="degree" className="degimg" />
               <div className="p5">
                 <p className="comp">Undergraduate Degrees</p>
                 <p>Our degree programs are crafted to meet industry demands.</p>
@@ -66,7 +66,7 @@ const Degree = () => {
                 )
               }
             >
-              <img src="/GlobalPlaza.jpg" alt="degree" className="degimg" />
+              <img src="/~zl5660/RIT_Web_Service/GlobalPlaza.jpg" alt="degree" className="degimg" />
               <div className="p5">
                 <p className="comp">Graduate Degrees</p>
                 <p>Our degree programs are crafted to meet industry demands.</p>
@@ -85,7 +85,7 @@ const Degree = () => {
                 )
               }
             >
-              <img src="/BuskingGuitar.jpg" alt="degree" className="degimg" />
+              <img src="/~zl5660/RIT_Web_Service/BuskingGuitar.jpg" alt="degree" className="degimg" />
               <div className="p5">
                 <p className="comp">Dynamic Minors for Every Interest</p>
                 <p>Choose from a variety of minors to enhance your major.</p>
@@ -102,7 +102,7 @@ const Degree = () => {
                 )
               }
             >
-              <img src="/ritlake.jpg" alt="degree" className="degimg" />
+              <img src="/~zl5660/RIT_Web_Service/ritlake.jpg" alt="degree" className="degimg" />
               <div className="p5">
                 <p className="comp">Employment</p>
                 <p>
@@ -123,7 +123,7 @@ const Degree = () => {
                 )
               }
             >
-              <img src="/ritlake.jpg" alt="degree" className="degimg" />
+              <img src="/~zl5660/RIT_Web_Service/ritlake.jpg" alt="degree" className="degimg" />
               <div className="p5">
                 <p className="comp">Courses offers</p>
                 <p>

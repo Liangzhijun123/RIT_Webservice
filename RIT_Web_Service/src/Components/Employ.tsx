@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "semantic-ui-css/semantic.min.css";
 import { Message, Icon } from "semantic-ui-react";
+import { getData } from "./Utils";
 
 interface ContentItem {
   title: string;
@@ -55,27 +56,28 @@ interface DataStructure {
 }
 
 const Employ = () => {
-  const [data, setData] = useState<DataStructure | null>(null);
+  const [data, setData] = useState<DataStructure>();
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
+ 
+
+  // Helper Async use Effect
   useEffect(() => {
-    fetch("/employ.json")
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error("Failed to fetch API");
-        }
-        return response.json();
-      })
-      .then((data) => {
-        setData(data);
-        setLoading(false);
-      })
-      .catch((error) => {
+    setLoading(true);
+    (async () => { 
+       try {
+        const response = await getData<DataStructure> ("employment")
+        setData(response)
+       } catch (error) {
         console.error("Error fetching data:", error);
         setError(error.message);
         setLoading(false);
-      });
+       }
+       finally {
+        setLoading(false)
+       }
+    })();
   }, []);
 
   if (loading) {

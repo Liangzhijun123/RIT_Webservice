@@ -1,0 +1,116 @@
+{
+    "UgMinors": [
+        {
+            "name": "DBDDI-MN",
+            "title": "Database Design, Development, and Implementation (DBDDI-MN)",
+            "description": "This minor provides a cohesive set of courses that will elevate students from foundational to advanced knowledge of database systems and the database development process. The minor starts with an introductory course where students learn the basics of data modeling, the relational model, normalization, and Structured Query Language (SQL).This knowledge is extended when students learn the skills needed to effectively capture requirements and compose data models that accurately reflect those requirements. They will also learn how to develop programs that establish lines of communication with back-end databases, build and manage large databases, and learn methods for designing and developing data warehouses.Upon completion of the minor, students will have a formal credential to describe their work in data management. This credential will demonstrate that the student has the skills needed to design and implement database systems within a broad range of domains.Faculty Minor Liaison: Edward Holden. Minor Advisor: Betty Hillman",
+            "courses": [
+                "ISTE-230",
+                "ISTE-430",
+                "ISTE-330",
+                "ISTE-436",
+                "ISTE-432",
+                "ISTE-434"
+            ],
+            "note": "One of the courses will be waived if you have completed the following with a grade of B- or better: ISTE-230 will be waived with completion of CSCI-320. The final course in the sequence could be either ISTE-432 or ISTE-434"
+        },
+        {
+            "name": "GIS-MN",
+            "title": "Geographic Information Systems Minor (GIS-MN)",
+            "description": "The geographic information systems (GIS) minor provides students with experience in the concepts, technology, and applications related to computer-based mapping, spatial databases, and geographic analysis and problem solving. The minor features two tracks: a GIS development track for students interested in GIS software development, and a GIS analysis track for students interested in utilizing GIS as a strong methodological base within their major degree of study. Required courses provide core GIS foundations applicable to a variety of multidisciplinary elective courses students can chose from to match their research, post-graduate or career GIS interests.Faculty Minor Liaison: Brian Tomaszewski. Minor Advisor: Betty Hillman",
+            "courses": [
+                "ISTE-382",
+                "ISTE-384",
+                "ISTE-386",
+                "ISTE-482",
+                "ISTE-484",
+                "ISTE-230",
+                "ISTE-483"
+            ],
+            "note": "ISTE-382 & ISTE-384 must be completed first. After completion, the student can proceed to take one of the following 2 paths of study: GIS Development Track  and GIS Analysis Track"
+        },
+        {
+            "name": "MEDINFO-MN",
+            "title": "Health IT (MEDINFO-MN)",
+            "description": "The field of Medical Informatics is also known as `Health Information Technology` or `Health IT`. This field is experiencing a period of rapid growth fueled by the federal government's push for universal adoption of electronic health records.The purpose of the minor is to teach students who have a computing background how to develop and maintain software systems in the healthcare field. One year of OOP programming and an introductory database course are required as background knowledge. The sequence begins with 2 courses that may be taken in parallel or in sequence: ISTE-330 teaches skills for writing code to access a database while MEDI-130 introduces the students to the language of healthcare and the broad need for applications. Students then take MEDI 320 where they learn about healthcare specific DBMS's, data warehousing, and data mining as applied in the healthcare field. This is followed by MEDI-330, an in-depth examination of the electronic health record covering both the implementation issues and the privacy and policy issues. Finally, in MEDI-430 students learn about enterprise architectures (e.g., Web services, message oriented middleware) and their use in healthcare systems.Faculty Minor Liaison: Larry Hill . Minor Advisor: Betty Hillman",
+            "courses": [
+                "ISTE-330",
+                "MEDI-130",
+                "MEDI-320",
+                "MEDI-330",
+                "MEDI-430"
+            ],
+            "note": "ISTE-330 has a prerequisite of ISTE-230. This prerequisite will be waived if you have completed the following with a grade of B- or better: ISTE-230 will be waived with completion of CSCI-320. It is recommended that the courses be taken in the order they appear. However, changes can be made as long as the prerequisites for each course are satisfied."
+        },
+        {
+            "name": "MDDEV-MN",
+            "title": "Mobile Design & Development (MDDEV-MN)",
+            "description": "The minor in mobile design and development will provide students with a firm foundation in designing applications for mobile devices. There is an explosion in the types and amount of mobile devices. This program is designed to provide the students with the ability to design and implement cross-platform applications. This minor is designed for students not currently enrolled in a degree within the Golisano College of Computing & Information Sciences. If you are currently enrolled in GCCIS, please see our Mobile Development Minor. Faculty Minor Liaison: Bryan French. Minor Advisor: Matt Lake",
+            "courses": [
+                "ISTE-120",
+                "ISTE-140",
+                "ISTE-260",
+                "ISTE-240",
+                "ISTE-252"
+            ],
+            "note": ""
+        },
+        {
+            "name": "MDEV-MN",
+            "title": "Mobile Development (MDEV-MN)",
+            "description": "The minor in mobile design and development will provide students enrolled in computing degree programs with the experience of designing and creating compelling native applications for mobile devices. Smartphones are outselling desktop computers. New mobile devices of varying sizes, types and uses are being created everyday for both businesses and personal use and contexts. Developers are needed to create applications for these needs that perform well on the major mobile platforms. Faculty Minor Liaison: Bryan French. Minor Advisor: Matt Lake",
+            "courses": [
+                "ISTE-140",
+                "ISTE-240",
+                "ISTE-340",
+                "ISTE-252",
+                "ISTE-454",
+                "ISTE-456"
+            ],
+            "note": "Some of the courses will be waived if you have completed the following with a grade of B- or better: ISTE-140 will be waived with completion of IGME-230. ISTE-240 will be waived with completion of IGME-330. For the final course in this minor, the student can choose to take either ISTE-454 or ISTE-456, the difference being what mobile platforms are being discussed. It is recommended that the courses be taken in the order they appear. However, changes can be made as long as the prerequisites for each course are satisfied."
+        },
+        {
+            "name": "NETSYS-MN",
+            "title": "Networking and System Administration (NETSYS-MN)",
+            "description": "The minor in networking and systems administration is comprised of a sequence of courses that will provide computing students outside of the NSSA department with a firm foundation in networking and/or systems administration. Computer networks and the systems attached to these networks have become ubiquitous. Therefore knowledge of how copmputer networks function, their administration, and the administration of the systems attached to them can be of value to every computing professional since their work will be impacted in some way by computer networks and computer systems. One year of OOP programming is required as background knowledge before being allowed to proceed to the 200 level courses. Faculty Minor Liaison: Larry Hill. Minor Advisor: Betty Hillman",
+            "courses": [
+                "ISTE-190",
+                "NSSA-102",
+                "NSSA-241",
+                "NSSA-242",
+                "NSSA-341",
+                "NSSA-220",
+                "NSSA-221",
+                "NSSA-322"
+            ],
+            "note": "Some of the courses will be waived if you have completed the following with a grade of B- or better: ISTE-190 will be waived with completion of NSSA-101 and CSEC-101. ISTE-190 & NSSA-102 must be completed first. After completion, the student can proceed to take one of the following 2 paths of study: Networking Focus and System Administration Focus "
+        },
+        {
+            "name": "WEBDD-MN",
+            "title": "Web Design & Development (WEBDD-MN)",
+            "description": "The minor in Web Design and Development is designed for non-computing majors and students outside the computing field who wish to learn more than just the basics of Web usage. The minor features courses in Web images, video, communication, development, and integration technologies. Students will learn how to design and build Web sites and create and manipulate digital images and video for Web use. Students completing this minor will have the broad range of skills and understanding necessary to design and build a basic, but complete, web presence. Faculty Minor Liaison: Ronald Vullo. Minor Advisor: Matt Lake",
+            "courses": [
+                "ISTE-105",
+                "ISTE-205",
+                "ISTE-206",
+                "ISTE-305",
+                "ISTE-405"
+            ],
+            "note": "ISTE-105 must be completed first, the next 3 coures can be completed in any order, ISTE-405 must be completed last."
+        },
+        {
+            "name": "WEBD-MN",
+            "title": "Web Development (WEBD-MN)",
+            "description": "The minor in web development will provide students enrolled in computing degree programs with a firm foundation in Web development. The Web has become a global, essential, and ubiquitous information delivery medium. Hence, knowledge of how the Web works and how to effectively develop dynamic websites will add considerable value to the academic programs of computing majors. This minor offers a curriculum that provides foundational skills in Web development, starting with simple sites, moving through dynamic client-side and server-side functionality, and culminating in Web-based systems that create and access various information services. Faculty Minor Liaison: Dan Bogaard . Minor Advisor: Matt Lake",
+            "courses": [
+                "ISTE-140",
+                "ISTE-230",
+                "ISTE-240",
+                "ISTE-340",
+                "SWEN-383",
+                "ISTE-341"
+            ],
+            "note": "Some of the courses will be waived if you have completed the following with a grade of B- or better: ISTE-140 will be waived with completion of IGME-230. ISTE-240 will be waived with completion of IGME-330. ISTE-230 will be waived with completion of CSCI-320. SWEN-383 will be waived with completion of SWEN-262"
+        }
+    ]
+}

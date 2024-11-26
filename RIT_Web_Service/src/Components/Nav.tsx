@@ -7,7 +7,7 @@ const Nav = () => {
       <div className="Bignav">
         <div className="Secondnav">
           <div>
-            <img src="/new_RIT_logo1_RGB_0.png" alt="RIT logo" className="rit"></img>
+            <img src="/~zl5660/RIT_Web_Service/new_RIT_logo1_RGB_0.png" alt="RIT logo" className="rit"></img>
           </div>
 
           <div className="Linknav">

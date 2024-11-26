@@ -76,7 +76,7 @@ const About = () => {
   return (
     <div id="about-us">
       <div className="about-container">
-        <img src="/RIT-NY-Campus.jpg" alt="RIT" className="school" />
+        <img src="/~zl5660/RIT_Web_Service/RIT-NY-Campus.jpg" alt="RIT" className="school" />
         <div className="title">
           <h1 className="explore">
             {Array.from("Explore Your Future").map((char, index) => (
